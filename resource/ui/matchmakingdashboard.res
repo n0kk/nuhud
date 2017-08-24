@@ -1,0 +1,125 @@
+"Resource/UI/MatchMakingDashboard.res"
+{
+	"MMDashboard"
+	{
+		"fieldName"				"MMDashboard"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"0"
+		"zpos"					"10001"
+		"wide"					"f0"
+		"tall"					"20"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"0"
+
+		"collapsed_height"	"0"
+		"expanded_height"	"20"
+		"resize_time"		"0.2"
+	}
+
+	"TopBar"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TopBar"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"15"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"40 40 40 255"		
+		"proportionaltoparent"	"1"
+
+		"pinCorner"		"2"
+		"autoResize"	"1"
+
+		"DisconnectContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"DisconnectContainer"
+			"xpos"			"r250"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"250"
+			"tall"			"f0"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"MatchSafeToLeaveState"
+			{
+				"ControlName"	"Label"
+				"fieldName"		"MatchSafeToLeaveState"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"210"
+				"zpos"			"100"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"font"			"nüMedium12"
+				"fgcolor_override"	"nüWhite"
+				"textAlignment"	"east"
+				"labelText"		"#TF_Matchmaking_SafeToLeave"
+				"proportionaltoparent"	"1"
+			}
+
+			"DisconnectButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"DisconnectButton"
+				"xpos"			"220"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"30"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"font"			""
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"Command"		"disconnect"
+				"proportionaltoparent"	"1"
+				"labeltext"		""
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+				"actionsignallevel"	"3"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"border_default"	"NoBorder"
+				"border_armed"		"NoBorder"
+				"paintbackground"	"1"
+				
+				"defaultFgColor_override" 	"Blank"
+				"armedFgColor_override"   	"Blank"
+				"depressedFgColor_override" "Blank"
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override"   	"169 123 53 255"
+				"depressedBgColor_override" "169 123 53 255"
+				
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"cs-0.5"
+					"ypos"			"cs-0.5"
+					"zpos"			"1"
+					"wide"			"14"
+					"tall"			"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"scaleImage"	"1"
+					"image"			"replay/thumbnails/buttons/close"
+					"proportionaltoparent"	"1"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+event MMenu_PlayList_Expand
+{
+	Animate ResumeGameButton		xpos 0 Spline 0 0.2
+
+	Animate QuickPlayButton			xpos 0 Spline 0 0.2
+	Animate CompetitiveButton		xpos 0 Spline 0 0.2
+	Animate PlayPVEButton			xpos 0 Spline 0 0.2
+	Animate ServerBrowserButton		xpos 0 Spline 0 0.2
+	Animate TrainingButton			xpos 0 Spline 0 0.2
+	Animate CharacterSetupButton	xpos 0 Spline 0 0.2
+	Animate GeneralStoreButton		xpos 0 Spline 0 0.2
+	Animate ReplayBrowserButton		xpos 0 Spline 0 0.2
+	Animate SettingsButton			xpos 0 Spline 0 0.2
+	Animate TF2SettingsButton		xpos 0 Spline 0 0.2
+	Animate ScoreboardButton		xpos 0 Spline 0 0.2
+	Animate ConsoleButton			xpos 0 Spline 0 0.2
+	Animate DemoUIButton			xpos 0 Spline 0 0.2
+
+	Animate HomeServer				xpos 25 Spline 0 0.2
+	Animate CreateServerButton		xpos 45 Spline 0 0.2
+	Animate RequestCoachButton		xpos 45 Spline 0 0.2
+	Animate CoachPlayersButton		xpos 65 Spline 0 0.2
+	Animate AchievementsButton		xpos 85 Spline 0 0.2
+	Animate InfoButton				xpos 105 Spline 0 0.2
+
+	Animate SidePanelBG wide 150	 Spline	0 0.2
+	Animate MenuBottomPanel wide 150	 Spline	0 0.2
+
+	FireCommand 0 "soundentry Panel.SlideDown"
+}
+
+event MMenu_PlayList_Collapse
+{
+	Animate ResumeGameButton		xpos -150 Spline 0 0.2
+
+	Animate QuickPlayButton			xpos -150 Spline 0 0.2
+	Animate CompetitiveButton		xpos -150 Spline 0 0.2
+	Animate PlayPVEButton			xpos -150 Spline 0 0.2
+	Animate ServerBrowserButton		xpos -150 Spline 0 0.2
+	Animate TrainingButton			xpos -150 Spline 0 0.2
+	Animate CharacterSetupButton	xpos -150 Spline 0 0.2
+	Animate GeneralStoreButton		xpos -150 Spline 0 0.2
+	Animate ReplayBrowserButton		xpos -150 Spline 0 0.2
+	Animate SettingsButton			xpos -150 Spline 0 0.2
+	Animate TF2SettingsButton		xpos -150 Spline 0 0.2
+	Animate ScoreboardButton		xpos -150 Spline 0 0.2
+	Animate ConsoleButton			xpos -150 Spline 0 0.2
+	Animate DemoUIButton			xpos -150 Spline 0 0.2
+
+	Animate HomeServer				xpos -125 Spline 0 0.2
+	Animate CreateServerButton		xpos -105 Spline 0 0.2
+	Animate RequestCoachButton		xpos -105 Spline 0 0.2
+	Animate CoachPlayersButton		xpos -85 Spline 0 0.2
+	Animate AchievementsButton		xpos -65 Spline 0 0.2
+	Animate InfoButton				xpos -45 Spline 0 0.2
+
+	Animate SidePanelBG wide 0 Spline 0 0.2
+	Animate MenuBottomPanel wide 0 Spline 0 0.2
+
+	FireCommand 0 "soundentry Panel.SlideUp"
+}
+
+event MMenu_PlayList_Collapse_Immediate
+{
+	Animate ResumeGameButton		xpos -150 Spline 0 0
+
+	Animate QuickPlayButton			xpos -150 Spline 0 0
+	Animate CompetitiveButton		xpos -150 Spline 0 0
+	Animate PlayPVEButton			xpos -150 Spline 0 0
+	Animate ServerBrowserButton		xpos -150 Spline 0 0
+	Animate TrainingButton			xpos -150 Spline 0 0
+	Animate CharacterSetupButton	xpos -150 Spline 0 0
+	Animate GeneralStoreButton		xpos -150 Spline 0 0
+	Animate ReplayBrowserButton		xpos -150 Spline 0 0
+	Animate SettingsButton			xpos -150 Spline 0 0
+	Animate TF2SettingsButton		xpos -150 Spline 0 0
+	Animate ScoreboardButton		xpos -150 Spline 0 0
+	Animate ConsoleButton			xpos -150 Spline 0 0
+	Animate DemoUIButton			xpos -150 Spline 0 0
+
+	Animate HomeServer				xpos -150 Spline 0 0
+	Animate CreateServerButton		xpos -105 Spline 0 0
+	Animate RequestCoachButton		xpos -105 Spline 0 0
+	Animate CoachPlayersButton		xpos -85 Spline 0 0
+	Animate AchievementsButton		xpos -65 Spline 0 0
+	Animate InfoButton				xpos -45 Spline 0 0
+
+	Animate SidePanelBG wide 0 Spline 0 0
+	Animate MenuBottomPanel wide 0 Spline 0 0
+}
