@@ -4,7 +4,7 @@ Scheme
 {
 	Colors
 	{
-		// 			 nühud Colors
+		// nühud Colors
 		//-----------------------------------------
 		
 		"nüBase"				"0 88 98 255"

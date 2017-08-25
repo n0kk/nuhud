@@ -1,5 +1,5 @@
 
-//           Select one to use
+// Select one to use
 //------------------------------------------
 
 	#base "damageindicatorON.res"
@@ -7,7 +7,7 @@
 	//#base "damageindicatorTHIN.res"
 
 	
-//		   Load custom crosshairs	
+// Load custom crosshairs	
 //------------------------------------------
 
 	#base "xhairs.res"

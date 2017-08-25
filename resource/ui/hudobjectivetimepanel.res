@@ -4,13 +4,13 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"30"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"4"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"
 		
@@ -26,7 +26,7 @@
 		}
 	}
 
-	"TimePanelBG2"		// Doesn't work with KOTH
+	"TimePanelBG2"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TimePanelBG2"
@@ -35,19 +35,12 @@
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"4"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/color_panel_brown"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
+		"image"			"replay/thumbnails/blank"
 		"teambg_2"		"replay/thumbnails/bg_red"
 		"teambg_3"		"replay/thumbnails/bg_blu"
-		
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
 		
 		if_match
 		{

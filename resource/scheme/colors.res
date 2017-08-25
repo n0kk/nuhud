@@ -2,14 +2,14 @@ Scheme
 {
 	Colors
 	{
-		// 				Health
+		// Health
 		//-----------------------------------------
 		
 		"Health"				"240 240 240 255"
 		"Health Buff"			"0 255 127 255"
 		"Health Low"			"255 45 38 255"
 		
-		// 				 Ammo
+		// Ammo
 		//-----------------------------------------
 		
 		"Ammo In Clip"			"240 240 240 255"
@@ -18,7 +18,7 @@ Scheme
 		"Low Ammo 1"			"200 45 45 255"
 		"Low Ammo 2"			"255 45 45 255"
 		
-		// 			 Medic Charge
+		// Medic Charge
 		//-----------------------------------------
 		
 		"ChargePercent"			"240 240 240 255"
@@ -26,7 +26,7 @@ Scheme
 		"Ubercharge 1"			"0 255 127 255"
 		"Ubercharge 2"			"0 210 105 255"
 		
-		// 				 Misc
+		// Misc
 		//-----------------------------------------
 		
 		"Damage Numbers"		"255 255 0 255"
@@ -35,7 +35,7 @@ Scheme
 		"Metal"					"240 240 240 255"
 		"Killstreak"			"240 240 240 255"
 		
-		// 			 nühud Colors
+		// nühud Colors
 		//-----------------------------------------
 		
 		"nüBase"				"0 88 98 255"

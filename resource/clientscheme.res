@@ -1,11 +1,11 @@
 
-//			Select a font to use
+// Select a font to use
 //------------------------------------------
 
 	#base "scheme/fonts - Cabin.res"
 	//#base "scheme/fonts - Roboto.res"
 
-//			 Do not change these
+// Do not change these
 //------------------------------------------
 
 	#base "scheme/basesettings.res"

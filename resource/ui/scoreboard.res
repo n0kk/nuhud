@@ -159,12 +159,13 @@
 		"tall_minmode"			"92"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 25"
 		
 		if_mvm
 		{
+			"visible"		"1"
 			"xpos"			"c-260"
 			"ypos"			"144"
 			"tall"			"112"
@@ -986,7 +987,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"c-170"
-		"ypos"			"327"
+		"ypos"			"328"
 		"ypos_minmode"		"290"
 		"zpos"			"3"
 		"wide"			"340"

@@ -1624,6 +1624,24 @@
 		}
 	}
 
+	"HUDVersion"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HUDVersion"
+		"font"			"DefaultVerySmall"
+		"labelText"		"v2017.08.24"
+		"textAlignment"	"east"
+		"xpos"			"r54"
+		"ypos"			"r10"
+		"wide"			"52"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"240 240 240 10"
+	}
+
 	"QuitButton"
 	{
 		"ControlName"	"EditablePanel"

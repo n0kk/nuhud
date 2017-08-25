@@ -42,7 +42,6 @@
 			"fgcolor"		"nüWhite"
 			"xpos"			"0"
 			"ypos"			"4"
-			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
 			"visible"		"1"
@@ -59,20 +58,6 @@
 				"tall"			"10"
 				"wide"			"35"
 			}
-		}
-
-		"TimePanelValueBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"TimePanelValueBG"
-			"xpos"			"30"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"40"
-			"tall"			"4"
-			"visible"		"0"
-			"enabled"		"0"
-			"fillcolor"		"nüBLUSolid"
 		}
 	}
 
@@ -110,7 +95,6 @@
 			"fgcolor"		"nüWhite"
 			"xpos"			"0"
 			"ypos"			"4"
-			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
 			"visible"		"1"
@@ -128,29 +112,43 @@
 				"tall"			"10"
 			}
 		}
-
-		"TimePanelValueBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"TimePanelValueBG"
-			"xpos"			"30"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"40"
-			"tall"			"4"
-			"visible"		"0"
-			"enabled"		"0"
-			"fillcolor"		"nüREDSolid"
-		}		
 	}
 	
+	"BlueTimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueTimerBG"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"40"
+		"tall"			"4"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüBLUSolid"
+	}
+
+	"RedTimerBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedTimerBG"
+		"xpos"			"130"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"40"
+		"tall"			"4"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüREDSolid"
+	}
+
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"3"
+		"zpos"				"4"
 		"wide"				"40"
 		"tall"				"4"
 		"visible"			"0"
