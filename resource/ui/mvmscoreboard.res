@@ -23,7 +23,7 @@
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"c-230"
-		"ypos"			"117"
+		"ypos"			"122"
 		"wide"			"480"
 		"tall"			"12"
 		"fgcolor"		"nüWhite"
@@ -34,7 +34,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"c-230"
-		"ypos"			"131"
+		"ypos"			"136"
 		"wide"			"480"
 		"tall"			"12"
 		"visible"		"1"
@@ -70,32 +70,25 @@
 	
 	"PlayerListBackground"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c-260"
+		"ypos"			"150"
 		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"150"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/tournament_panel_brown"
-		
-		"scaleImage"		"1"
-		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"wide"			"520"
+		"tall"			"107"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"../hud/tournament_panel_brown"
+		"fillcolor"		"0 0 0 50"
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"c-260"
-		"ypos"			"143"
+		"ypos"			"150"
 		"wide"			"520"
 		"tall"			"107"
 		"pinCorner"		"0"
@@ -112,7 +105,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
 		"xpos"			"c-230"
-		"ypos"			"256"
+		"ypos"			"257"
 		"wide"			"460"
 		"tall"			"80"
 		"visible"		"1"

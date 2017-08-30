@@ -5,7 +5,7 @@
 
 "Resource/HudLayout.res"
 {
-	KnucklesCrosses		// refer to KnucklesCrosses.png for labelText
+	KnucklesCrosses1		// refer to KnucklesCrosses.png for labelText
 	{
 		"visible" 		"0"
 		"enabled" 		"0"
@@ -15,7 +15,7 @@
 		"fgcolor" 		"0 0 0 255"
 		
 		"controlName"	"CExLabel"
-		"fieldName"	 	"KnucklesCrosses"
+		"fieldName"	 	"KnucklesCrosses1"
 		"zpos"			"0"
 		"xpos" 		 	"c-25"
 		"ypos" 		 	"c-25"

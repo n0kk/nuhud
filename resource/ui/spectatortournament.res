@@ -178,7 +178,7 @@
 				"tall"				"18"
 				"visible"			"1"
 				"enabled"			"1"	
-				"HealthBonusPosAdj"	"320"
+				"HealthBonusPosAdj"	"320"	// 320 - 1920x1080, 213 - 1280x720, 229 - 1024x768
 				"HealthDeathWarning"		"1.0"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"

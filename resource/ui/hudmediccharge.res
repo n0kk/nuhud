@@ -2,14 +2,14 @@
 // Select a charge layout
 //------------------------------------------
 
-	#base "hudmediccharge - default.res"
-	//#base "hudmediccharge - center.res"
-	//#base "hudmediccharge - bottom.res"
+	#base "hudmediccharge_default.res"
+	//#base "hudmediccharge_center.res"
+	//#base "hudmediccharge_bottom.res"
 
 // Small charge label under crosshair	
 //------------------------------------------
 
-	//#base "hudmediccharge - scl.res"
+	//#base "hudmediccharge_scl.res"
 
 //------------------------------------------
 

@@ -38,7 +38,7 @@ Scheme
 		Button.TextColor				"nüWhite"
 		Button.BgColor					"30 30 30 255"
 		Button.ArmedTextColor			"nüWhite"
-		Button.ArmedBgColor				"nüBase"
+		Button.ArmedBgColor				"0 126 140 255"
 		Button.SelectedTextColor		"nüWhite"
 		Button.SelectedBgColor			"nüBase"
 		Button.DepressedTextColor		"Black"

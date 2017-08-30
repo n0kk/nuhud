@@ -3244,8 +3244,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"7"
+				"name"		"Cabin-Regular"
+				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"

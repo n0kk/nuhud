@@ -30,7 +30,7 @@
 		"fgcolor"		"nüWhite"
 		"xpos"			"200"
 		"xpos_minmode"	"5"
-		"ypos"			"3"
+		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
@@ -48,7 +48,7 @@
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"200"
 		"xpos_minmode"	"5"
-		"ypos"			"4"
+		"ypos"			"3"
 		"zpos"			"3"
 		"wide"			"200"
 		"tall"			"15"
@@ -114,7 +114,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"image"			"replay/thumbnails/bg_white"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

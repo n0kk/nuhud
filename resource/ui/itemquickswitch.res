@@ -113,8 +113,8 @@
 		"wide"			"235"
 		"tall"			"125"
 		"PaintBackgroundType"	"0"
-		"fgcolor_override"	"0 54 0 255"
-		"bgcolor_override"	"0 200 0 100"
+		"fgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"0 0 0 0"
 		"autohide_buttons" "0"
 	}
 	
@@ -127,44 +127,28 @@
 		"wide"			"235"
 		"tall"			"125"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"200 0 0 100"
+		"bgcolor_override"	"0 0 0 0"
 
 		"pin_to_sibling"	"itemcontainerscroller"
 		"pin_corner_to_sibling"		"1"          
 		"pin_to_sibling_corner"		"1" 
-
-		"CEBAnchor"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"CEBAnchor"
-			"xpos"			"111"
-			"ypos"			"26"
-			"wide"			"50"
-			"tall"			"12"
-			"visible"		"1"
-			"enabled"		"1"
-		}
 
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurrentlyEquippedBackground"
 			"font"			"nü10"
-			"labelText"		"#QuickSwitchEquipped"
+			"labelText"		"Equipped"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"50"
+			"wide"			"70"
 			"tall"			"12"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"fgcolor_override" "200 80 60 255"
-			"bgcolor_override"	"0 0 0 0"
-
-			"pin_to_sibling"	"CEBAnchor"
-			"pin_corner_to_sibling"		"1"          
-			"pin_to_sibling_corner"		"1" 		
+			"PaintBackgroundType"	"0"
+			"fgcolor_override" "nüWhite"
+			"bgcolor_override"	"0 0 0 0"	
 		}
 	}
 	

@@ -149,11 +149,11 @@
 	{
 		"label"	""
 		"command" "engine con_enable 1;showconsole;
-					echo ===============================
-					echo -- nuhud
-					echo -- by Nokk
-					echo -- Last updated on 2017 Aug 24
-					echo ==============================="
+					echo ================================
+					echo --- nuhud
+					echo --- by Nokk
+					echo --- Last updated on 2017 Aug 30
+					echo ================================"
 		"tooltip" "HUD Info"
 	}
 	"SteamWorkshopButton"	//UNUSED

@@ -176,6 +176,22 @@ Scheme
 		Tooltip.BgColor			"nüDarkGrey"
 	}
 
+	Borders
+	{
+		BaseBorder		SubtleBorder
+		ButtonBorder	RaisedBorder
+		ComboBoxBorder	DepressedBorder
+		MenuBorder		SubtleBorder
+		BrowserBorder	DepressedBorder
+		PropertySheetBorder	RaisedBorder
+
+		FrameBorder
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "0"
+		}
+	}
+
 	CustomFontFiles
 	{
 		"6" 

@@ -297,8 +297,7 @@
 		"tall"			"16"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"NoBorder"
-		"bgcolor_override"	"30 30 30 255"
+		"border"		"MainMenuBGBorder"
 		
 		"TipSubLabel"
 		{
@@ -1629,7 +1628,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HUDVersion"
 		"font"			"DefaultVerySmall"
-		"labelText"		"v2017.08.24"
+		"labelText"		"v2017.08.30"
 		"textAlignment"	"east"
 		"xpos"			"r54"
 		"ypos"			"r10"
@@ -1639,7 +1638,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"240 240 240 10"
+		"fgcolor_override"	"240 240 240 5"
 	}
 
 	"QuitButton"

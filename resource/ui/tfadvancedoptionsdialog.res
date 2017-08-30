@@ -137,8 +137,7 @@
 		"tall"			"16"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"NoBorder"
-		"bgcolor_override"	"30 30 30 255"
+		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{

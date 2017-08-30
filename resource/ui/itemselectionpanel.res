@@ -180,6 +180,8 @@
 		"unicode"		"1"
 		"fgcolor_override"	"nüWhite"
 		"bgcolor_override"	"30 30 30 255"
+		"selectionColor_override" "nüWhite"
+		"selectionTextColor_override" "nüBlack"
 		"paintbackgroundtype" "2"
 		"font"		"nü12"
 	}

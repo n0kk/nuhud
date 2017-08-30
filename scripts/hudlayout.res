@@ -2,16 +2,14 @@
 // Select one to use
 //------------------------------------------
 
-	#base "damageindicatorON.res"
-	//#base "damageindicatorOFF.res"
-	//#base "damageindicatorTHIN.res"
+	#base "damageindicator_default.res"
+	//#base "damageindicator_thin.res"
 
-	
 // Load custom crosshairs	
 //------------------------------------------
 
 	#base "xhairs.res"
-	
+
 //------------------------------------------
 
 "Resource/HudLayout.res"
