@@ -164,10 +164,10 @@
 		"armedFgColor_override"		"nüWhite"
 		"depressedFgColor_override" "nüWhite"
 		"selectedFgColor_override" 	"nüWhite"
-		"defaultBgColor_override" 	"LightPanelBG"
-		"armedBgColor_override"		"LightPanelBG"
-		"depressedBgColor_override" "LightPanelBG"
-		"selectedBgColor_override" 	"LightPanelBG"
+		"defaultBgColor_override" 	"PanelBG"
+		"armedBgColor_override"		"PanelBG"
+		"depressedBgColor_override" "PanelBG"
+		"selectedBgColor_override" 	"PanelBG"
 	}
 	
 	"ButtonSeperator"
@@ -213,10 +213,10 @@
 		"armedFgColor_override"		"nüWhite"
 		"depressedFgColor_override" "nüWhite"
 		"selectedFgColor_override" 	"nüWhite"
-		"defaultBgColor_override" 	"LightPanelBG"
-		"armedBgColor_override"		"LightPanelBG"
-		"depressedBgColor_override" "LightPanelBG"
-		"selectedBgColor_override" 	"LightPanelBG"
+		"defaultBgColor_override" 	"PanelBG"
+		"armedBgColor_override"		"PanelBG"
+		"depressedBgColor_override" "PanelBG"
+		"selectedBgColor_override" 	"PanelBG"
 	}
 	
 	"CancelButton"

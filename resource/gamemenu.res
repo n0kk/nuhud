@@ -152,7 +152,7 @@
 					echo ================================
 					echo --- nuhud
 					echo --- by Nokk
-					echo --- Last updated on 2017 Aug 30
+					echo --- Last updated on 2017 Aug 31
 					echo ================================"
 		"tooltip" "HUD Info"
 	}

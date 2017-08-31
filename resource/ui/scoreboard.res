@@ -3,7 +3,7 @@
 //------------------------------------------
 
 	#base "scoreboard_default.res"
-	//#base "scoreboard_comp.res"
+	//#base "scoreboard_alt6s.res"
 
 //------------------------------------------
 
@@ -34,6 +34,98 @@
 		"stats_width"		"30"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
+	}
+	"BlueScoreBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueScoreBG"
+		"xpos"			"c-248"
+		"ypos"			"130"
+		"zpos"			"1"
+		"wide"			"246"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"../hud/score_panel_blue_bg"
+		"fillcolor"		"PanelBG"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"BlueScoreBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueScoreBG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"246"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"../hud/score_panel_blue_bg"
+		"fillcolor"		"nüBLUTransparent"
+
+		"pin_to_sibling"	"BlueScoreBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedScoreBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c2"
+		"ypos"			"130"
+		"zpos"			"1"
+		"wide"			"246"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"../hud/score_panel_red_bg"
+		"fillcolor"		"PanelBG"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedScoreBG2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedScoreBG2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"246"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		//"image"			"../hud/score_panel_red_bg"
+		"fillcolor"		"nüREDTransparent"
+
+		"pin_to_sibling"	"RedScoreBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}
 	"BlueTeamLabelWorking"
 	{
@@ -117,11 +209,82 @@
 			"visible"		"0"
 		}
 	}
+	"RedTeamLabelWorking"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamLabelWorking"
+		"font"			"nüBold18"
+		"fgcolor"		"nüWhite"
+		"labelText"		"%redteamname%"
+		"textAlignment"		"east"
+		"xpos"			"-6"
+		"ypos"			"0"
+		"zpos"			"22"
+		"wide"			"200"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"xpos"			"9999"
+			"visible"		"0"
+		}
+	}
+	"RedTeamScore"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamScore"
+		"font"			"nüBold18"
+		"fgcolor"		"nüWhite"
+		"labelText"		"%redteamscore%"
+		"textAlignment"		"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"22"
+		"wide"			"30"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedTeamPlayerCount"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamPlayerCount"
+		"font"			"nü8"
+		"fgcolor"		"nüWhite"
+		"labelText"		"%redteamplayercount%"
+		"textAlignment"		"east"
+		"xpos"			"-6"
+		"ypos"			"0"
+		"zpos"			"22"
+		"wide"			"200"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"TopBarBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TopBarBG"
 		"xpos"			"c-170"
+		"ypos"			"96"
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"30"
@@ -261,6 +424,64 @@
 		{
 			"visible"		"0"
 		}
+	}
+	"BluePlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"BluePlayerList"
+		"xpos"			"2"
+		"ypos"			"-3"
+		"zpos"			"0"
+		"wide"			"250"
+		"tall"			"168"		// 92 for 6, 130 for 9, 168 for 12
+		"tall_minmode"		"92"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"13"
+		"linegap"		"0"
+		"fgcolor"		"blue"
+		//"show_columns"	"1"
+
+		"pin_to_sibling"	"BlueScoreBG2"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedPlayerList"
+	{
+		"ControlName"	"SectionedListPanel"
+		"fieldName"		"RedPlayerList"
+		"xpos"			"2"
+		"ypos"			"-3"
+		"zpos"			"0"
+		"wide"			"250"
+		"tall"			"168"
+		"tall_minmode"		"92"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"autoresize"	"3"
+		"linespacing"	"13"
+		"linegap"		"0"
+		"textcolor"		"red"
+		//"show_columns"	"1"
+
+		"pin_to_sibling"	"REDScoreBG2"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+ 		if_mvm
+ 		{
+ 			"visible"		"0"
+ 		}
 	}
 	"VerticalLine"
 	{
@@ -699,6 +920,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
+		"xpos"			"c-170"
+		"ypos"			"328"
 		"zpos"			"3"
 		"wide"			"340"
 		"tall"			"30"
@@ -758,8 +981,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
-			"xpos"			"74"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -767,6 +990,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"KillsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Kills2"
 		{
@@ -776,8 +1003,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
-			"xpos"			"74"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -785,6 +1012,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"KillsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"DeathsLabel"
 		{
@@ -812,8 +1043,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"74"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -821,6 +1052,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"DeathsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Deaths2"
 		{
@@ -830,8 +1065,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"74"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -839,6 +1074,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"DeathsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"AssistsLabel"
 		{
@@ -866,8 +1105,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"144"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -875,6 +1114,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"AssistsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Assists2"
 		{
@@ -884,8 +1127,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"144"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -893,6 +1136,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"AssistsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"DamageLabel"
 		{
@@ -920,8 +1167,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
-			"xpos"			"144"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -929,6 +1176,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"DamageLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Damage2"
 		{
@@ -938,8 +1189,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
-			"xpos"			"144"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -947,6 +1198,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"DamageLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"InvulnLabel"
 		{
@@ -974,8 +1229,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
-			"xpos"			"214"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -983,6 +1238,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"InvulnLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Invuln2"
 		{
@@ -992,8 +1251,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
-			"xpos"			"214"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -1001,6 +1260,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"InvulnLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"HealingLabel"
 		{
@@ -1028,8 +1291,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"214"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -1037,6 +1300,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"HealingLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Healing2"
 		{
@@ -1046,8 +1313,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"214"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -1055,6 +1322,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"HealingLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"HeadshotsLabel"
 		{
@@ -1082,8 +1353,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"284"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -1091,6 +1362,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"HeadshotsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Headshots2"
 		{
@@ -1100,8 +1375,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"284"
-			"ypos"			"5"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -1109,6 +1384,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"HeadshotsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"BackstabsLabel"
 		{
@@ -1136,8 +1415,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
-			"xpos"			"284"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -1145,6 +1424,10 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
+
+			"pin_to_sibling"	"BackstabsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Backstabs2"
 		{
@@ -1154,8 +1437,8 @@
 			"fgcolor"		"nüWhite"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
-			"xpos"			"284"
-			"ypos"			"15"
+			"xpos"			"7"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"10"
@@ -1163,6 +1446,10 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+
+			"pin_to_sibling"	"BackstabsLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		// UNUSED STATS
 		"GameType"
@@ -1473,6 +1760,7 @@
 			"enabled"		"0"
 		}
 	}
+
 	"MvMScoreboard"
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"

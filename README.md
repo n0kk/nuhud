@@ -20,7 +20,7 @@ More screenshots [here](http://imgur.com/a/QjJSX).
 1. Download by clicking `Download ZIP` from the green `Clone or download` button
 2. Navigate to  `Steam\steamapps\common\Team Fortress 2\tf\custom`
 3. Extract `nühud-master` from the ZIP file to the `custom` folder
-4. Make sure `materials`, `resource`, `scripts`, and `info.vdr` are inside the master folder
+4. Make sure `materials`, `resource`, `scripts`, and `info.vdf` are inside the master folder
 5. Run Team Fortress 2
 
 Detailed instructions on installing a HUD for TF2 [here](http://huds.tf/forum/showthread.php?tid=2).
