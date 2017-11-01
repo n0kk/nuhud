@@ -26,7 +26,7 @@
 		"fgcolor" 		"0 0 0 255"
 	}
 	
-	KnucklesCrosses2	// refer to KnucklesCrosses.png for labelText
+	KnucklesCrosses2
 	{
 		"visible" 		"0"
 		"enabled" 		"0"

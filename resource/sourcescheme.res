@@ -119,7 +119,7 @@ Scheme
 		ListPanel.SelectedTextColor			"nüWhite"
 		ListPanel.SelectedBgColor			"nüBase"
 		ListPanel.SelectedOutOfFocusBgColor	"nüOffWhite"
-		ListPanel.EmptyListInfoTextColor	"ahudDullWhite"
+		ListPanel.EmptyListInfoTextColor	"nüOffWhite"
 
 		SectionedListPanel.TextColor			"nüWhite"
 		SectionedListPanel.BrightTextColor		"nüWhite"
@@ -168,7 +168,7 @@ Scheme
 		TextEntry.BgColor				"LightPanelBG"
 		TextEntry.DisabledTextColor	    "nüOffWhite"
 		TextEntry.DisabledBgColor		"Blank"
-		TextEntry.SelectedBgColor	    "nüBase"
+		TextEntry.SelectedBgColor	    "nüLightBase"
 		TextEntry.SelectedTextColor		"nüWhite"
 		TextEntry.CursorColor			"nüOffWhite"
 

@@ -97,10 +97,10 @@ Scheme
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
 		ListPanel.EmptyListInfoTextColor	"Orange"
 
-		Menu.TextColor					"TanLight"
-		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.TextColor					"nüWhite"
+		Menu.BgColor					"nüDarkGrey"
+		Menu.ArmedTextColor				"nüWhite"
+		Menu.ArmedBgColor				"nüLightBase"
 		Menu.TextInset					"6"
 
 		Chat.TypingText					"Orange"

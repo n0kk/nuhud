@@ -113,7 +113,7 @@
 			}
 		}
 	}
-	
+
 	"BlueTimerBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -126,6 +126,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"nüBLUSolid"
+
+		if_match
+		{
+			"visible"	"0"
+		}
 	}
 
 	"RedTimerBG"
@@ -140,6 +145,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"nüREDSolid"
+		
+		if_match
+		{
+			"visible"	"0"
+		}
 	}
 
 	"ActiveTimerBG"

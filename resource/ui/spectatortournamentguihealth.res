@@ -11,8 +11,8 @@
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
-	}		
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,8 +25,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"BuildingStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -39,8 +39,8 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
+		"scaleImage"	"1"
+	}
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -56,25 +56,6 @@
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 
-	}
-	"PlayerStatusHealthBuffBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayerStatusHealthBuffBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"enabled"		"0"
-		"bgcolor_override"	"Health Buff"
-		"scaleImage"		"1"
-		"proportionaltoparent"	"1"
-
-		"pin_to_sibling"	"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 	"PlayerStatusHealthLowBG"
 	{
@@ -95,10 +76,10 @@
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
-	"PlayerStatusHealthValueSpecgui"
+	"PlayerStatusHealthValueSpecT"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecgui"
+		"fieldName"		"PlayerStatusHealthValueSpecT"
 		"xpos"			"116"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -111,10 +92,10 @@
 		"font"			"nüBold14"
 		"fgcolor"		"Health"
 	}
-	"PlayerStatusHealthValueSpecguiShadow"
+	"PlayerStatusHealthValueSpecTShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueSpecguiShadow"
+		"fieldName"		"PlayerStatusHealthValueSpecTShadow"
 		"xpos"			"0"
 		"ypos"			"-1"
 		"zpos"			"5"
@@ -127,8 +108,8 @@
 		"font"			"nüBoldShadow14"
 		"fgcolor"		"ShadowBlack"
 
-		"pin_to_sibling"	"PlayerStatusHealthValueSpecgui"
+		"pin_to_sibling"	"PlayerStatusHealthValueSpecT"
 		"pin_corner_to_sibling"	"1"
 		"pin_to_sibling_corner"	"1"
-	}	
+	}
 }

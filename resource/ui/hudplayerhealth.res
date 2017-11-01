@@ -8,7 +8,7 @@
 		"xpos"			"c-253"
 		"ypos"			"c95"
 		"zpos"			"2"
-		"wide"			"153"
+		"wide"			"170"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -90,9 +90,27 @@
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"		"1"
-        "pin_to_sibling_corner"		"1"
-	}						
+		"pin_corner_to_sibling"	"1"
+        "pin_to_sibling_corner"	"1"
+	}
+	"PlayerStatusHealthBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerStatusHealthBG"
+		"xpos"			"-9"
+		"ypos"			"-9"
+		"zpos"			"3"
+		"wide"			"72"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"Blank"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -127,7 +145,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
-		"xpos"			"117"
+		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"20"
@@ -136,6 +154,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -522,5 +555,20 @@
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
-	}	
+	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"85"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+	}
 }

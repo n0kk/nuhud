@@ -1,14 +1,8 @@
 
-// Select one to use
-//------------------------------------------
-
-	#base "damageindicator_default.res"
-	//#base "damageindicator_thin.res"
-
 // Load custom crosshairs	
 //------------------------------------------
 
-	#base "xhairs.res"
+	#base "hudlayout_xhairs.res"
 
 //------------------------------------------
 
@@ -222,7 +216,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"80"
+		"xpos"		"70"
 		"ypos"		"r38"
 		"wide"		"500"
 		"tall"		"40"
@@ -385,6 +379,20 @@
 		"TextColor"	"255 170 0 220"
 
 		"PaintBackgroundType"	"2"
+	}
+
+	HudDamageIndicator
+	{
+		"fieldName"	"HudDamageIndicator"
+		"visible"	"1"
+		"enabled"	"1"
+		"MinimumWidth"	"15"
+		"MaximumWidth"	"15"
+		"StartRadius"	"80"
+		"EndRadius"		"80"
+		"MinimumHeight"	"30"
+		"MaximumHeight"	"60"
+		"MinimumTime"	"1"
 	}
 
 	HudCommentary
@@ -1425,6 +1433,22 @@
 		"zpos"					"3"
 		"wide"					"f0"
 		"tall"					"f0"
+	}
+
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 
 	//---------------------------------------------

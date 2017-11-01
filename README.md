@@ -4,7 +4,7 @@ I got tired of ahud and made a new hud — a work in progress.
 
 #### Screenshots
 
-* [Main Menu](http://i.imgur.com/dbURzbh.jpg)
+* [Main Menu](https://i.imgur.com/EC498nV.jpg)
 * [Class Loadout](http://i.imgur.com/0LvYQXV.jpg)
 * [Team Select](http://i.imgur.com/6gx0HhB.jpg)
 * [Class Select](http://i.imgur.com/PGCUrlK.jpg)
@@ -35,4 +35,4 @@ No.
 ## Credits
 A few shout-outs to those who have helped me directly and indirectly, as well as having inspired me with their own creations—old and new, finished and unfinished.
 
-In alphabetical order: **colly**, **extracrispy**, **JarateKing**, **nimtra**, **omnibombulator**, **Pigby**, **Rawrsor**, and **Wiethoofd**
+In alphabetical order: **colly**, **extracrispy**, **JarateKing**, **merlin**, **nimtra**, **omnibombulator**, **Pigby**, **Rawrsor**, **Whisker**, and **Wiethoofd**

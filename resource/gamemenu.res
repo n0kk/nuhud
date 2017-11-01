@@ -1,41 +1,6 @@
 "GameMenu" [$WIN32]
 {
-	"SidePanelButton"
-	{
-		"label"	""
-		"command" "toggle_play_menu"
-	}
-
 	//MAIN MENU BUTTONS
-	"QuickplayButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-	}
-	"PlayPVEButton"
-	{
-		"label" "Mann vs Machine" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-	}
 	"CharacterSetupButton"
 	{
 		"label" "Items"
@@ -47,12 +12,6 @@
 		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
 	}
 	"SettingsButton"
 	{
@@ -87,13 +46,6 @@
 	}
 
 	//IN-GAME BUTTONS
-	"ResumeGameButton"
-	{
-		"label"			"Resume"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-	}
-
 	"CallVoteButton"
 	{
 		"label"			""
@@ -124,12 +76,6 @@
 		"subimage" "icon_whistle"
 		"tooltip" "Request Coach"
 	}
-	"DisconnectButton"
-	{
-		"label"	""
-		"command" "engine disconnect"
-		"OnlyInGame" "1"
-	}
 
 	//IMAGE BUTTONS
 	"HomeServer"
@@ -152,7 +98,7 @@
 					echo ================================
 					echo --- nuhud
 					echo --- by Nokk
-					echo --- Last updated on 2017 Aug 31
+					echo --- Last updated on 2017 Nov 01
 					echo ================================"
 		"tooltip" "HUD Info"
 	}

@@ -97,6 +97,7 @@
 		"tabxfittotext"	"1"
 		"tabheight"		"20"
 		"transition_time" "0"
+		"yoffset"		"0"
 		
 		"HeaderLine"
 		{
@@ -208,7 +209,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
 		"xpos"			"c275"
-		"ypos"			"395"
+		"ypos"			"397"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -241,7 +242,7 @@
 		"ypos"			"397"
 		"zpos"			"2"
 		"wide"			"130"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

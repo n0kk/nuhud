@@ -87,6 +87,24 @@
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 	}
+	"PlayerStatusHealthBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerStatusHealthBG"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"3"
+		"wide"			"30"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"Blank"
+		"PaintBackgroundType"	"2"
+
+		"pin_to_sibling"	"PlayerStatusHealthValueSpec"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
+	}
 	"PlayerStatusPlayerLevel"
 	{
 		"ControlName"	"CExLabel"
@@ -102,21 +120,4 @@
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
 	}
-	"SpecHealthBG"	
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"HealthBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"32"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
-	}	
 }

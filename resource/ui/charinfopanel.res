@@ -111,6 +111,8 @@
 		"tabwidth"		"150"
 		"tabheight"		"20"
 		"transition_time" "0"
+		"yoffset"		"0"
+		"zpos"			"1"
 		
 		"HeaderLine"
 		{
@@ -199,9 +201,9 @@
 		"xpos"			"r200"
 		"ypos"			"10"
 		"zpos"			"10000"
-		"wide"			"190"
+		"wide"			"0"
 		"tall"			"50"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 	}
 }

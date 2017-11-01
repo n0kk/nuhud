@@ -1,5 +1,3 @@
-#base "BadgePanel.res"
-
 "Resource/UI/HudMatchSummary.res"
 {
 	"MatchSummary"
@@ -37,7 +35,7 @@
 		"AnimStatsLabelPanel12v12YPos"		"20"
 		"AnimBlueTeamLabel12v12YPos"		"47"
 		"AnimRedTeamLabel12v12YPos"			"47"
-		"AnimStatsContainer12v12YPos"		"-20"
+		"AnimStatsContainer12v12YPos"		"2"
 	}
 
 	"RankPanel"
@@ -89,6 +87,38 @@
 		"team_colors"		"1"
 	}
 
+	"MenuTopPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"MenuTopPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"20"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"nüBase"
+	}
+
+	"MatchSummaryLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MatchSummaryLabel"
+		"font"			"nüBold16"
+		"labelText"		"Match Summary"
+		"textAlignment"		"west"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"50"
+		"wide"			"f0"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "nüWhite"
+	}	
 
 	"MainStatsContainer"
 	{
@@ -303,19 +333,23 @@
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"BlueTeamImage"
-					"xpos"			"14"
-					"ypos"			"89"
+					"xpos"			"1"
+					"ypos"			"0"
 					"zpos"			"5"
-					"wide"			"56"
-					"tall"			"56"
+					"wide"			"58"
+					"tall"			"58"
 					"visible"		"1"
 					"enabled"		"1"
-					"image"			"../hud/team_blue"
+					"image"			"store/store_blueteam"
 					"scaleImage"		"1"
 
+					"pin_to_sibling" 	"BlueTeamScoreBG"
+					"pin_corner_to_sibling"	"PIN_TOPLEFT"
+					"pin_to_sibling_corner"	"PIN_TOPLEFT"
+					
 					if_large
 					{
-						"ypos"			"29"
+						"ypos"			"0"
 					}
 				}
 				"BlueTeamLabel"
@@ -378,7 +412,7 @@
 					"ControlName"		"EditablePanel"
 					"fieldName"		"BluePlayerListParent"
 					"xpos"			"12"
-					"ypos"			"137"
+					"ypos"			"135"
 					"zpos"			"1"
 					"wide"			"p.193"
 					"tall"			"215"
@@ -404,23 +438,23 @@
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
-						"linespacing"	"26"
-						"linegap"		"4"
+						"linespacing"	"24"
+						"linegap"		"0"
 						//"show_columns"	"1"
 
 						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
-						"spacer"		"s.01"
+						"spacer"		"2"
 						"name_width"	"s.19"
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"5"
+						"horiz_inset"	"0"
 
 						if_large
 						{
 							"tall"			"340"
-							"linegap"		"1"
+							"linegap"		"0"
 						}
 					}
 				}
@@ -572,19 +606,23 @@
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"RedTeamImage"
-					"xpos"			"r68"
-					"ypos"			"80"
+					"xpos"			"1"
+					"ypos"			"0"
 					"zpos"			"5"
-					"wide"			"70"
-					"tall"			"70"
+					"wide"			"58"
+					"tall"			"58"
 					"visible"		"1"
 					"enabled"		"1"
-					"image"			"../hud/team_red"
+					"image"			"store/store_redteam"
 					"scaleImage"		"1"
+
+					"pin_to_sibling" 	"RedTeamScoreBG"
+					"pin_corner_to_sibling" "PIN_TOPRIGHT"
+					"pin_to_sibling_corner" "PIN_TOPRIGHT"
 
 					if_large
 					{
-						"ypos"			"20"
+						"ypos"			"0"
 					}
 				}
 				"RedTeamLabel"
@@ -647,7 +685,7 @@
 					"ControlName"		"EditablePanel"
 					"fieldName"		"RedPlayerListParent"
 					"xpos"			"r12-p.193"
-					"ypos"			"137"
+					"ypos"			"135"
 					"zpos"			"1"
 					"wide"			"p.193"
 					"tall"			"215"
@@ -673,23 +711,23 @@
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
-						"linespacing"	"26"
-						"linegap"		"4"
+						"linespacing"	"24"
+						"linegap"		"0"
 						//"show_columns"	"1"
 
 						"medal_width"	"s.08"
 						"avatar_width"	"s.08"
-						"spacer"		"s.01"
+						"spacer"		"2"
 						"name_width"	"s.19"
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"5"
+						"horiz_inset"	"0"
 
 						if_large
 						{
 							"tall"			"340"
-							"linegap"		"1"
+							"linegap"		"0"
 						}
 					}
 				}

@@ -90,8 +90,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_default"	"/pve/buy_disabled"
-			"image_armed"	"/pve/buy_selected"
+			"image_default"	"glyph_expand"
 
 			"button_activation_type"	"1"
 
@@ -151,14 +150,14 @@
 			"xpos"			"rs1-24"
 			"ypos"			"2"
 			"zpos"			"3"
-			"wide"			"120"
+			"wide"			"200"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"nüBold14"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -167,7 +166,6 @@
 			"mouseinputenabled"	"0"
 
 			"fgcolor"		"nüWhite"
-			"paintbackground"	"1"
 		}	
 
 		"TitleShadow"
@@ -177,14 +175,14 @@
 			"xpos"			"rs1-24"
 			"ypos"			"3"
 			"zpos"			"2"
-			"wide"			"120"
+			"wide"			"200"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"nüBold14"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
