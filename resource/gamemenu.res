@@ -98,7 +98,7 @@
 					echo ================================
 					echo --- nuhud
 					echo --- by Nokk
-					echo --- Last updated on 2017 Nov 01
+					echo --- Last updated on 2017 Nov 15
 					echo ================================"
 		"tooltip" "HUD Info"
 	}

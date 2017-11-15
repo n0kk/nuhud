@@ -37,19 +37,16 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-248"
 		"ypos"			"130"
 		"zpos"			"1"
 		"wide"			"246"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"image"			"../hud/score_panel_blue_bg"
-		"fillcolor"		"PanelBG"
+		"bgcolor_override"	"PanelBG"
 
 		if_mvm
 		{
@@ -58,19 +55,16 @@
 	}
 	"BlueScoreBG2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueScoreBG2"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"246"
 		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"image"			"../hud/score_panel_blue_bg"
-		"fillcolor"		"nüBLUTransparent"
+		"bgcolor_override"	"nüBLUTransparent"
 
 		"pin_to_sibling"	"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -83,19 +77,16 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c2"
 		"ypos"			"130"
 		"zpos"			"1"
 		"wide"			"246"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"image"			"../hud/score_panel_red_bg"
-		"fillcolor"		"PanelBG"
+		"bgcolor_override"	"PanelBG"
 
 		if_mvm
 		{
@@ -104,19 +95,16 @@
 	}
 	"RedScoreBG2"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"RedScoreBG2"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"246"
 		"tall"			"10"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"image"			"../hud/score_panel_red_bg"
-		"fillcolor"		"nüREDTransparent"
+		"bgcolor_override"	"nüREDTransparent"
 
 		"pin_to_sibling"	"RedScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

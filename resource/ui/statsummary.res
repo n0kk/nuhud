@@ -224,7 +224,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "nüBase"
+		"fgcolor_override" "196 143 66 255"
 	}
 	"StatData"
 	{
