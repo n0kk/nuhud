@@ -19,10 +19,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
 
-	Animate PlayerStatusHealthValue 			FgColor 	"Health" 	Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpec 		FgColor 	"Health" 	Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpecT 		FgColor 	"Health" 	Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreeze 		FgColor 	"Health"	Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor 	"Health" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpec 		FgColor 	"Health" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpecT 		FgColor 	"Health" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueFreeze 		FgColor 	"Health"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -50,10 +50,10 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 
-	Animate PlayerStatusHealthLowBG				Alpha		"0"			Accel 0.0 0.0
+	Animate PlayerStatusHealthLowBG				Alpha		"0"			Linear 0.0 0.0
 
-	Animate PlayerStatusHealthValue				FgColor 	"Health" 	Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpec		 	FgColor 	"Health" 	Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpecT 		FgColor 	"Health" 	Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreeze 		FgColor 	"Health" 	Accel 0.0 0.0
+	Animate PlayerStatusHealthValue				FgColor 	"Health" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpec		 	FgColor 	"Health" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueSpecT 		FgColor 	"Health" 	Linear 0.0 0.0
+	Animate PlayerStatusHealthValueFreeze 		FgColor 	"Health" 	Linear 0.0 0.0
 }

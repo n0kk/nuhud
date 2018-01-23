@@ -71,5 +71,59 @@
 		"brighttext"			"0"
 		"fgcolor_override"		"nüWhite"
 		"bgcolor_override"		"LightPanelBG"
-	}					
+	}
+
+	"ChargedShot1"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ChargedShot1"
+		"xpos"			"-30"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"1"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüBlack"
+
+		"pin_to_sibling"	"ItemEffectMeter"
+        "pin_corner_to_sibling"	"PIN_TOPLEFT"
+        "pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+
+	"ChargedShot2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ChargedShot2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"1"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüBlack"
+
+		"pin_to_sibling"	"ItemEffectMeter"
+        "pin_corner_to_sibling"	"PIN_CENTER_TOP"
+        "pin_to_sibling_corner"	"PIN_CENTER_TOP"
+	}
+
+	"ChargedShot3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ChargedShot3"
+		"xpos"			"-30"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"1"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüBlack"
+
+		"pin_to_sibling"	"ItemEffectMeter"
+        "pin_corner_to_sibling"	"PIN_TOPRIGHT"
+        "pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
 }

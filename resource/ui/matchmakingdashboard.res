@@ -252,7 +252,7 @@
 			"ypos"			"-50"
 			"zpos"			"111"
 			"wide"			"185"
-			"tall"			"f10"
+			"tall"			"f5"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -287,11 +287,40 @@
 				"bgcolor_override"	"45 45 45 255"
 			}
 
+			"QueueLogoButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"QueueLogoButton"
+				"xpos"			"4"
+				"ypos"			"0"
+				"zpos"			"10"
+				"wide"			"o1"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labeltext"		""
+				"font"			"HudFontSmallBold"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"1"
+				"Command"		"queue_logo_clicked"
+				"proportionaltoparent"	"1"
+				"actionsignallevel"	"3"
+				"button_activation_type"	"1"
+			
+				"paintbackground"	"0"
+				"paintborder"		"0"				
+			}
+
 			"CTFLogoPanel"
 			{
 				"ControlName"	"CTFLogoPanel"
 				"fieldname"		"CTFLogoPanel"
-				"xpos"			"6"
+				"xpos"			"4"
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"o1"

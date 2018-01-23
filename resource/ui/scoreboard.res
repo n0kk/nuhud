@@ -9,6 +9,19 @@
 
 "Resource/UI/Scoreboard.res"
 {
+	"MainBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		//"bgcolor_override"	"15 15 15 140"
+	}
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"

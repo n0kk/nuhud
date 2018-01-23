@@ -68,4 +68,58 @@
 		"fgcolor_override"		"Ubercharge Meter"
 		"bgcolor_override"		"0 0 0 140"
 	}
+
+	"Charge25Percent"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Charge25Percent"
+		"xpos"			"-30"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"1"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüBlack"
+
+		"pin_to_sibling"	"ChargeMeter"
+        "pin_corner_to_sibling"	"PIN_TOPLEFT"
+        "pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+
+	"Charge50Percent"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Charge50Percent"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"1"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüBlack"
+
+		"pin_to_sibling"	"ChargeMeter"
+        "pin_corner_to_sibling"	"PIN_CENTER_TOP"
+        "pin_to_sibling_corner"	"PIN_CENTER_TOP"
+	}
+
+	"Charge75Percent"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Charge75Percent"
+		"xpos"			"-30"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"1"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"nüBlack"
+
+		"pin_to_sibling"	"ChargeMeter"
+        "pin_corner_to_sibling"	"PIN_TOPRIGHT"
+        "pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
 }

@@ -216,10 +216,10 @@
 		{
 			"image"		"../console/title_fullmoon_widescreen"
 		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
+//		if_christmas
+//		{
+//			"image"		"../console/title_team_smissmas_2017_widescreen"
+//		}
 //		if_operation
 //		{
 //			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
@@ -1309,7 +1309,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HUDVersion"
 		"font"			"DefaultVerySmall"
-		"labelText"		"v2017.11.15"
+		"labelText"		"v2018.01.23"
 		"textAlignment"	"east"
 		"xpos"			"r54"
 		"ypos"			"r10"
@@ -1769,7 +1769,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"Adv Options"
+			"labelText"		"Adv. Options"
 			"font"			"nüBoldShadow14"
 			"textAlignment"	"center"
 			"textinsetx"	"0"
