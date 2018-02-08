@@ -9,7 +9,7 @@ event HudLowAmmoPulse
 	Animate AmmoNoClip	 	FgColor 	"Low Ammo 1" 	Linear 0.0 0.075
 	Animate AmmoNoClip		FgColor 	"Low Ammo 2" 	Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop	0.4
+	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
 // call to loop HudLowAmmoPulse

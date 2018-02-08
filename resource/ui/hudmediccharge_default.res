@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c88"
+		"xpos"			"c105"
 		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"90"

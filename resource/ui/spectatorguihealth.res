@@ -45,13 +45,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"8"
+		"ypos"			"12"
 		"zpos"			"3"
-		"wide"			"19"
-		"tall"			"19"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -60,7 +60,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"12"
 		"zpos"			"5"
 		"wide"			"32"
 		"tall"			"16"
@@ -76,7 +76,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"32"
 		"tall"			"16"
@@ -86,6 +86,10 @@
 		"font"			"nüBoldShadow16"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
+
+		"pin_to_sibling"	"PlayerStatusHealthValueSpec"
+		"pin_corner_to_sibling"	"1"
+		"pin_to_sibling_corner"	"1"
 	}
 	"PlayerStatusHealthBG"
 	{

@@ -9,7 +9,7 @@
 		{
 			"zpos"			"20"
 			"wide"			"25"
-			"tall"			"5"
+			"tall"			"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -17,13 +17,14 @@
 			"tabPosition"	"0"
 			"font"			"nüBold10"
 			"textAlignment"	"center"
-			"textinsetx"	"99"
+			"textinsety"	"99"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		""
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
+			"RoundedCorners"	"0"
 		}			
 	}
 }

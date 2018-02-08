@@ -4,14 +4,14 @@ I got tired of ahud and made a new hud — a work in progress.
 
 #### Screenshots
 
-* [Main Menu](https://i.imgur.com/EC498nV.jpg)
-* [Class Loadout](http://i.imgur.com/0LvYQXV.jpg)
-* [Team Select](http://i.imgur.com/6gx0HhB.jpg)
-* [Class Select](http://i.imgur.com/PGCUrlK.jpg)
-* [Buffed HP & Target ID](http://i.imgur.com/W1UVUfW.jpg)
-* [Low HP & Ammo](http://i.imgur.com/WKVcFMe.jpg)
-* [12v12 Scoreboard](http://i.imgur.com/d5XO08M.jpg)
-* [6v6 Scoreboard](http://i.imgur.com/YFbc4JJ.jpg)
+* [Main Menu](https://i.imgur.com/NclY7Oh.jpg)
+* [Class Loadout](https://i.imgur.com/waGK5pI.jpg)
+* [Team Select](https://i.imgur.com/imH30WL.jpg)
+* [Class Select](https://i.imgur.com/J2NZZr3.jpg)
+* [Buffed HP & Target ID](https://i.imgur.com/gU8clCG.jpg)
+* [Low HP & Ammo](https://i.imgur.com/mb0m6F7.jpg)
+* [12v12 Scoreboard](https://i.imgur.com/F95Z2Ac.jpg)
+* [6v6 Scoreboard](https://i.imgur.com/Tfuz71z.jpg)
 
 More screenshots [here](http://imgur.com/a/QjJSX).
 

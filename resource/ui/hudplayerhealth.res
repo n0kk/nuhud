@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-253"
+		"xpos"			"c-270"
 		"ypos"			"c95"
 		"zpos"			"2"
 		"wide"			"170"
@@ -47,15 +47,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"102"
+		"ypos"			"17"
 		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -299,7 +299,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"40"
+		"xpos"			"35"
 		"ypos"			"23"
 		"zpos"			"7"
 		"wide"			"25"

@@ -24,7 +24,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c88"
+		"xpos"	"c105"
 		"ypos"	"c105"
 		"wide"	"265"
 		"tall"	"50"
@@ -189,7 +189,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-178"
+		"xpos"					"c-195"
 		"ypos"					"c76"
 		"wide"					"90"
 		"tall"  				"50"
@@ -230,7 +230,7 @@
 		"xpos"		"c-126"
 		"ypos"		"275"
 		"wide"	 	"252"
-		"tall"	 	"30"
+		"tall"	 	"32"
 		"priority"	"40"
 
 		if_vr
@@ -263,7 +263,7 @@
 		"xpos"		"c-126"
 		"ypos"		"310"
 		"wide"	 	"252"
-		"tall"	 	"30"
+		"tall"	 	"32"
 		"priority"	"35"
 
 		if_vr
@@ -551,7 +551,7 @@
 		"wide"	 "100"
 		"tall"	 "50"
 		"zpos" 	"2"
-		"xpos"			"c180"
+		"xpos"			"c200"
 		"ypos"			"c105"
 		
 		"TextFont"				"Default"

@@ -1,5 +1,8 @@
 event HudHealthBonusPulse
 {
+	Animate	PlayerStatusHealthBonusImage		Alpha		"0"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthBonusImage		Alpha		"0"		Linear 0.0 0.0
+
 	Animate PlayerStatusHealthValue				FgColor 	"Health" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec			FgColor 	"Health" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpecT 		FgColor 	"Health Buff" 	Linear 0.0 0.0
@@ -36,6 +39,9 @@ event HudHealthBonusPulseStop
 
 event HudHealthDyingPulse
 {
+	Animate	PlayerStatusHealthBonusImage		Alpha		"0"		Linear 0.0 0.0
+	Animate	PlayerStatusHealthBonusImage		Alpha		"0"		Linear 0.0 0.0
+
 	Animate PlayerStatusHealthValue 			FgColor 	"Health" 	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpec			FgColor		"Health"	Linear 0.0 0.0
 	Animate PlayerStatusHealthValueSpecT 		FgColor 	"Health" 	Linear 0.0 0.0
@@ -44,10 +50,10 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthLowBG			Alpha		"255"		Linear 0.0 0.0
 
 	Animate	PlayerStatusHealthBG		BgColor		"Health Low"		Linear 0.0 0.0
-    Animate	PlayerStatusHealthBG		Alpha		"215"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBG		Alpha		"95"		Linear 0.2 0.4
+    Animate	PlayerStatusHealthBG		Alpha		"215"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBG		Alpha		"95"		Linear 0.125 0.075
 
-	RunEvent HudHealthDyingPulseLoop	0.4
+	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
 // call to loop HudHealthDyingPulse

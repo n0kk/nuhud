@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c88"
+		"xpos"			"c105"
 		"ypos"			"c113"
 		"zpos"			"3"
 		"wide"			"89"
@@ -162,7 +162,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ResistIconAnchor"
-		"xpos"			"c180"
+		"xpos"			"c197"
 		"ypos"			"c113"
 		"wide"			"34"
 		"tall"			"34"
