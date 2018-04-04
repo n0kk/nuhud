@@ -8,7 +8,7 @@
 		"xpos"			"r60"
 		"ypos"			"r34"
 		"wide"			"50"
-		"tall"			"26"
+		"tall"			"30"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -35,10 +35,10 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"16"
+		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"50"
-		"tall"					"10"
+		"tall"					"12"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -48,7 +48,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"nü10"
+		"font"					"nüMedium12"
 		"fgcolor_override"		"240 240 240 255"		
 	}
 

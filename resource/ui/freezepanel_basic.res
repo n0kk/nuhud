@@ -18,9 +18,9 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"PanelBG"
+		"paintbackground"	"1"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -36,22 +36,6 @@
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-
-		"ItemBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ItemBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"200"
-			"tall"			"1000"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"15 15 15 215"
-		}
 		
 		"itemmodelpanel"
 		{
@@ -64,7 +48,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"nü8"
+			"font"			"DefaultSmall"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -79,8 +63,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
-	
+	}
+
 	"FreezePanelBase"	[$WIN32]
 	{
 		"ControlName"	"EditablePanel"

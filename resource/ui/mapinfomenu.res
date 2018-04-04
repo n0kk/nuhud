@@ -28,7 +28,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 215"
+		"fillcolor"		"nüBlack"
 	}
 	
 	"MainBG"
@@ -44,7 +44,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 120"
+		"fillcolor"		"LightPanelBG"
 	}
 	
 	"MapInfoTitle"
@@ -63,7 +63,30 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"nüBold16"
-		"fgcolor"		"White"
+		"fgcolor"		"nüWhite"
+	}
+
+	"MapInfoTitleShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapInfoTitleShadow"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%mapname%"
+		"textAlignment"	"center"
+		"font"			"nüBoldShadow16"
+		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"	"MapInfoTitle"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"MapInfoType"

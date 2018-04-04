@@ -24,6 +24,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
+
 			"ParticleEffects"
 			{
 				"0"
@@ -117,6 +122,11 @@
 			"proportionaltoparent"	"1"
 
 			"paintbackground"	"0"
+
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -217,12 +227,12 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
 			"xpos"			"0"
-			"ypos"			"13"
+			"ypos"			"14"
 			"wide"			"150"
 			"zpos"			"100"
 			"tall"			"20"
@@ -231,17 +241,65 @@
 			"font"			"nü10"
 			"fgcolor_override"	"nüOffWhite"
 			"textAlignment"	"center"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
-				"wide"	"f0"
+				"wide"	"195"
 				"font"	"nüMedium12"
 				"fgcolor_override"	"nüWhite"
 				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"0"
+			"ypos"			"24"
+			"wide"			"150"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"nü10"
+			"fgcolor_override"	"nüOffWhite"
+			"textAlignment"	"center"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"	"195"
+				"font"	"nüMedium12"
+				"fgcolor_override"	"nüWhite"
+				"textAlignment"	"north-west"
+			}
+
+			"fonts"
+			{
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"nüOffWhite"
 			}
 		}
 
@@ -250,7 +308,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"0"
-			"ypos"			"30"
+			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
@@ -267,7 +325,7 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"rs1-3"
 				"wide"			"150"
 				"tall"			"30"
 				"proportionaltoparent"	"1"
@@ -330,7 +388,7 @@
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"30"
-					"ypos"			"0"
+					"ypos"			"rs1-10"
 					"wide"			"90"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
@@ -354,7 +412,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
+						"fgcolor_override"	"20 20 20 0"
 						"bgcolor_override"	"0 0 0 0"
 					}
 

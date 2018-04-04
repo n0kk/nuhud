@@ -104,11 +104,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"c-230"
+		"xpos"			"c-260"
 		"ypos"			"257"
-		"wide"			"460"
+		"wide"			"520"
 		"tall"			"80"
 		"visible"		"1"
+		"bgcolor_override"	"PanelBG"
 		
 		"CreditStatsBackground"
 		{
@@ -131,23 +132,7 @@
 			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-		
-		"CreditStatsBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"CreditStatsBG"
-			"xpos"			"15"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"430"
-			"tall"			"80"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"15 15 15 215"
-		}
-		
+
 		"CreditsLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -166,7 +151,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"30"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"184"
 			"tall"			"65"
@@ -178,7 +163,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"245"
+			"xpos"			"275"
 			"ypos"			"0"
 			"wide"			"184"
 			"tall"			"65"
@@ -190,7 +175,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"130"
+			"xpos"			"160"
 			"ypos"			"0"
 			"wide"			"184"
 			"tall"			"65"
@@ -202,7 +187,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"345"
+			"xpos"			"375"
 			"ypos"			"0"
 			"wide"			"184"
 			"tall"			"65"
@@ -214,13 +199,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"nü10"
+			"font"			"nüMedium12"
 			"labelText"		"%respecstatus%"
 			"textAlignment" "center"
-			"xpos"			"130"
-			"ypos"			"64"
-			"wide"			"255"
-			"tall"			"12"
+			"xpos"			"0"
+			"ypos"			"65"
+			"wide"			"520"
+			"tall"			"14"
 			"fgcolor"		"nüWhite"
 		}
 	}

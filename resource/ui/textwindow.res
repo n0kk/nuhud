@@ -46,7 +46,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 215"
+		"fillcolor"		"nüBlack"
 	}
 
 	"MainBG"
@@ -62,7 +62,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 120"
+		"fillcolor"		"LightPanelBG"
 	}
 
 	"TFMessageTitle"
@@ -84,7 +84,32 @@
 		"brighttext"	"0"
 		"font"			"nüBold16"
 		"fgcolor"		"White"
-	}	
+	}
+
+	"TFMessageTitleShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TFMessageTitleShadow"
+		"xpos"			"0"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"24"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_WELCOME"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"nüBoldShadow16"
+		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"	"TFMessageTitle"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
 
 	"TextMessage"
 	{

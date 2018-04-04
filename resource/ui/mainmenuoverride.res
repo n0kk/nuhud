@@ -417,7 +417,7 @@
 				"textAlignment"	"center"
 				"labelText"		"News"
 				"xpos"			"0"
-				"ypos"			"1"
+				"ypos"			"-1"
 				"wide"			"300"
 				"tall"			"20"
 				"autoResize"	"0"
@@ -425,6 +425,10 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"fgcolor_override"	"ShadowBlack"
+
+				"pin_to_sibling"	"MOTD_HeaderLabelNew"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}		
 		}
 
@@ -763,7 +767,7 @@
 		"xpos"			"r70"
 		"ypos"			"0"
 		"zpos"			"11"
-		"wide"			"20"
+		"wide"			"25"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -814,7 +818,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/warning"
+				"image"			"replay/thumbnails/buttons/notification"
 				"proportionaltoparent"	"1"
 			}	
 		}
@@ -826,7 +830,7 @@
 			"font"			"nüBold8"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"11"
+			"xpos"			"15"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"10"
@@ -867,7 +871,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 
-			"image_drawcolor"	"255 255 0 255"
+			"image_drawcolor"	"nüWhite"
 			"image_armedcolor"	"nüWhite"
 
 			"SubImage"
@@ -882,7 +886,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/warning"
+				"image"			"replay/thumbnails/buttons/notification_active"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -1309,7 +1313,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HUDVersion"
 		"font"			"DefaultVerySmall"
-		"labelText"		"v2018.02.08"
+		"labelText"		"v2018.04.04"
 		"textAlignment"	"east"
 		"xpos"			"r54"
 		"ypos"			"r10"
@@ -1388,18 +1392,18 @@
 		}
 	}			
 
-	"SidePanelBG"
+	"MenuSidePanel"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SidePanelBG"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MenuSidePanel"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"-100"
 		"wide"			"150"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 215"
+		"bgcolor_override"	"15 15 15 215"
 	}
 
 	"RankModelPanel"
@@ -1412,7 +1416,7 @@
 		"zpos"			"-51"
 		"wide"			"150"
 		"tall"			"1000"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"
 
@@ -1420,7 +1424,77 @@
 
 		"show_progress"	"0"
 	}
-	
+
+	"CycleRankTypeButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CycleRankTypeButton"
+		"xpos"			"70"
+		"ypos"			"95"
+		"wide"			"10"
+		"tall"			"10"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"textinsetx"	"25"
+		"labelText"		""
+		"use_proportional_insets" "1"
+		"font"			"HudFontSmallBold"
+		"command"		"open_rank_type_menu"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"vo/null.mp3"
+		"actionsignallevel" "1"
+		"proportionaltoparent"	"1"
+				
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"image_drawcolor"	"130 130 130 255"
+		"image_armedcolor"	"nüWhite"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
+			"zpos"			"1"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"replay/thumbnails/buttons/dropdown"
+
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+		}		
+	}
+
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-1"
+		"wide"			"8"
+		"tall"			"8"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+		"image"			"info"
+		"scaleImage"	"1"	
+		"alpha"			"75"
+	}
+
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -1430,14 +1504,69 @@
 		"zpos"			"-52"
 		"wide"			"150"
 		"tall"			"100"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
 
 		"show_model"	"0"
+		"show_type"		"1"
+	}
+
+	"NoGCMessage"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"NoGCMessage"
+		"xpos"			"0"
+		"ypos"			"125"
+		"zpos"			"-99"
+		"wide"			"150"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+		"centerwrap"			"1"
+		"textinsetx"	"40"
+		"textinsety"	"10"
+
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"200 80 60 255"
+		"labelText"		"#TF_MM_NoGC_Rank"
+		"textAlignment"	"center"
+		"use_proportional_insets"	"1"
+	}
+
+	"NoGCImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"NoGCImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-99"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			""
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}	
+
+	"RankBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBorder"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"-100"
+		"wide"			"260"
+		"tall"			"60"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"NoBorder"
+		"bgcolor_override"	"15 15 15 215"
+		"proportionaltoparent"	"1"
 	}
 
 	"CharacterSetupButton"
@@ -1446,11 +1575,9 @@
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"0"
 		"ypos"			"250"
-		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
 		
 		"SubButton"
 		{
@@ -1459,8 +1586,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1475,6 +1602,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"nüMenuButtonBorder"
@@ -1507,10 +1635,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubButtonShadow"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1521,6 +1649,11 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 
@@ -1530,12 +1663,10 @@
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"0"
 		"ypos"			"270"
-		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -1543,22 +1674,23 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"font"			"nüBold14"
 			"textAlignment"	"center"
+			"textinsetx"	"0"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"nüMenuButtonBorder"
@@ -1591,10 +1723,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubButtonShadow"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1605,6 +1737,11 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
 			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 
@@ -1614,11 +1751,9 @@
 		"fieldname"		"SettingsButton"
 		"xpos"			"0"
 		"ypos"			"290"
-		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
 		
 		"SubButton"
 		{
@@ -1627,8 +1762,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1643,6 +1778,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"nüMenuButtonBorder"
@@ -1676,10 +1812,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubButtonShadow"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1690,6 +1826,11 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"			
 			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 
@@ -1699,11 +1840,9 @@
 		"fieldname"		"TF2SettingsButton"
 		"xpos"			"0"
 		"ypos"			"310"
-		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
 		
 		"SubButton"
 		{
@@ -1712,8 +1851,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1728,6 +1867,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"nüMenuButtonBorder"
@@ -1761,10 +1901,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubButtonShadow"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1775,6 +1915,11 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"		
 			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 
@@ -1784,11 +1929,9 @@
 		"fieldname"		"ScoreboardButton"
 		"xpos"			"0"
 		"ypos"			"330"
-		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
 		
 		"SubButton"
 		{
@@ -1797,8 +1940,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1813,6 +1956,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"nüMenuButtonBorder"
@@ -1831,10 +1975,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubButtonShadow"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1845,6 +1989,11 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"		
 			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 
@@ -1854,11 +2003,9 @@
 		"fieldname"		"ConsoleButton"
 		"xpos"			"0"
 		"ypos"			"350"
-		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
 		
 		"SubButton"
 		{
@@ -1867,8 +2014,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1883,6 +2030,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"nüMenuButtonBorder"
@@ -1901,10 +2049,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubButtonShadow"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1915,6 +2063,11 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"		
 			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 
@@ -1924,11 +2077,9 @@
 		"fieldname"		"DemoUIButton"
 		"xpos"			"0"
 		"ypos"			"370"
-		"zpos"			"11"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
 		
 		"SubButton"
 		{
@@ -1937,8 +2088,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1953,6 +2104,7 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"nüMenuButtonBorder"
@@ -1971,10 +2123,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubButtonShadow"
 			"xpos"			"0"
-			"ypos"			"1"
+			"ypos"			"-1"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1985,6 +2137,11 @@
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"		
 			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 

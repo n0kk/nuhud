@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"150"
-		"tall"			"31"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"24"
+		"xpos"			"4"
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
@@ -86,12 +86,40 @@
 		"tall"			"43"
 		"visible"		"0"
 
+		"BuildingBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"36"
+			"tall"			"31"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"PanelBG"
+		}
+
+		"BuildingBG2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG2"
+			"xpos"			"36"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"73"
+			"tall"			"31"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"LightPanelBG"
+		}
+
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
+			"xpos"			"40"
 			"ypos"			"2"
 			"wide"			"8"
 			"tall"			"24"
@@ -109,7 +137,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
+			"xpos"			"53"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -158,7 +186,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"55"
+			"xpos"			"50"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -186,7 +214,7 @@
 				"font"			"Default"
 				"xpos"			"22"
 				"ypos"			"12"
-				"wide"			"35"
+				"wide"			"30"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"

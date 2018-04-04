@@ -28,20 +28,22 @@
 			"angles_z"		"0"
 		}
 	}
-	"TargetBG"
+
+	"DisguiseStatusBG"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TargetBG"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"0"
-		"ypos"			"12"
+		"ypos"			"30"
 		"zpos"			"-1"
-		"wide"			"152"
-		"tall"	 		"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"wide"			"120"
+		"tall"	 		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"TargetBG"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/bg_red_transparent"	
+		"teambg_2"			"replay/thumbnails/bg_red_transparent"
+		"teambg_3"			"replay/thumbnails/bg_blu_transparent"
 	}
 
 	"DisguiseNameLabel"
@@ -52,7 +54,7 @@
 		"xpos"			"42"
 		"ypos"			"12"
 		"zpos"			"1"
-		"wide"			"110"
+		"wide"			"78"
 		"tall"			"16"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -73,7 +75,7 @@
 		"xpos"			"42"
 		"ypos"			"13"
 		"zpos"			"1"
-		"wide"			"110"
+		"wide"			"78"
 		"tall"			"16"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -94,7 +96,7 @@
 		"xpos"			"42"
 		"ypos"			"2"
 		"zpos"			"1"
-		"wide"			"110"
+		"wide"			"78"
 		"tall"			"12"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -122,6 +124,5 @@
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
-	}	
-	
+	}
 }

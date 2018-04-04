@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"150"
-		"tall"			"31"
+		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -31,25 +31,11 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
-	"BuildingBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"109"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"LightPanelBG"
-	}
-	
 	"Icon_Dispenser"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"17"
+		"xpos"			"3"
 		"ypos"			"1"
 		"wide"			"28"
 		"tall"			"28"
@@ -69,6 +55,20 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"0"
+
+		"BuildingBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"36"
+			"tall"			"31"
+			"visible"		"0"
+			"enabled"		"0"
+			"fillcolor"		"PanelBG"
+		}
 
 		"NotBuiltLabel"
 		{
@@ -100,11 +100,39 @@
 		"tall"			"31"
 		"visible"		"0"
 
+		"BuildingBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"36"
+			"tall"			"31"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"PanelBG"
+		}
+
+		"BuildingBG2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG2"
+			"xpos"			"36"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"73"
+			"tall"			"31"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"LightPanelBG"
+		}
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"39"
+			"xpos"			"27"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -120,7 +148,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"39"
+			"xpos"			"27"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -136,7 +164,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"39"
+			"xpos"			"27"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -152,9 +180,9 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"106"
+			"xpos"			"109"
 			"ypos"			"0"
-			"wide"			"34"
+			"wide"			"36"
 			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
@@ -165,8 +193,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"114"
-			"ypos"			"5"
+			"xpos"			"115"
+			"ypos"			"6"
 			"zpos"			"1"
 			"wide"			"19"
 			"tall"			"19"
@@ -181,7 +209,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"110"
+			"xpos"			"113"
 			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"25"
@@ -198,7 +226,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"6"
+			"xpos"			"40"
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"24"

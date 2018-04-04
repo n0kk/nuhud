@@ -216,9 +216,9 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"70"
-		"ypos"		"r38"
-		"wide"		"500"
+		"xpos"		"c-60"
+		"ypos"		"r85"
+		"wide"		"120"
 		"tall"		"40"
 	}
 
@@ -292,7 +292,7 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-12"
+		"xpos"		"-8"
 		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
@@ -1212,11 +1212,11 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r270"
-		"ypos"					"300"
+		"xpos"					"r200"
+		"ypos"					"rs1"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 	
 	HudTFCrosshair

@@ -31,25 +31,11 @@
 		"iconColor"		"255 255 255 255"
 	}
 	
-	"BuildingBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"109"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"LightPanelBG"
-	}
-	
 	"Icon_Sentry_1"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon_Sentry_1"
-		"xpos"			"23"
+		"xpos"			"11"
 		"ypos"			"1"
 		"wide"			"15"
 		"tall"			"15"
@@ -69,6 +55,20 @@
 		"wide"			"160"
 		"tall"			"20"
 		"visible"		"0"
+
+		"BuildingBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"36"
+			"tall"			"22"
+			"visible"		"0"
+			"enabled"		"0"
+			"fillcolor"		"PanelBG"
+		}
 
 		"NotBuiltLabel"
 		{
@@ -100,6 +100,34 @@
 		"tall"			"20"
 		"visible"		"0"
 		
+		"BuildingBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"36"
+			"tall"			"22"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"PanelBG"
+		}
+
+		"BuildingBG2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"BuildingBG2"
+			"xpos"			"36"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"73"
+			"tall"			"22"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"LightPanelBG"
+		}
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
@@ -168,7 +196,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"6"
+			"xpos"			"40"
 			"ypos"			"4"
 			"wide"			"8"
 			"tall"			"15"

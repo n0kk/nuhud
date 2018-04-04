@@ -397,7 +397,7 @@
 			"fieldName"		"CapNumPlayers"
 			"font"			"nü10"
 			"font_minmode"		"ItemFontAttribSmall"
-			"xpos"			"25"
+			"xpos"			"26"
 			"ypos"			"52"
 			"zpos"			"4"
 			"wide"			"20"
@@ -414,7 +414,7 @@
 			"if_multiple_trains"
 			{
 				"font"			"nü10"
-				"xpos"			"25"
+				"xpos"			"26"
 			}			
 			
 			"if_multiple_trains_top"
