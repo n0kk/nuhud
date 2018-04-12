@@ -80,8 +80,8 @@
 		"wide"		"20"
 		"tall"		"f0"
 		"zpos"	"1000"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 
 
 		"proportionaltoparent"	"1"
@@ -97,24 +97,24 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"rs1"
-		"labelText"		">"
+		"labelText"		"►"
 
 		if_left
 		{
 			"xpos"		"0"
-			"labelText"		"<"
+			"labelText"		"◄"
 		}
 
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
+		"wide"			"14"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 
 		"textAlignment"	"east"
-		"font"			"nüMedium12"
+		"font"			"nüBold10"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -126,13 +126,13 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
-		"labelText"		"<"
+		"xpos"			"0"
+		"labelText"		"◄"
 
 		if_left
 		{
 			"xpos"	"rs1-3"
-			"labelText"		">"
+			"labelText"		"►"
 		}
 
 		"ypos"			"0"
@@ -145,7 +145,7 @@
 		"labelText"		"<"
 
 		"textAlignment"	"west"
-		"font"			"nüMedium12"
+		"font"			"nüBold10"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"

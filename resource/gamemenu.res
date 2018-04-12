@@ -1,6 +1,12 @@
 "GameMenu" [$WIN32]
 {
 	//MAIN MENU BUTTONS
+	"ServerBrowserButton"
+	{
+		"label" "Servers" 
+		"command" "OpenServerBrowser"
+		"subimage" "glyph_server_browser"
+	}
 	"CharacterSetupButton"
 	{
 		"label" "Items"
@@ -98,7 +104,7 @@
 					echo ================================
 					echo --- nuhud
 					echo --- by Nokk
-					echo --- Last updated on 2018 Apr 04
+					echo --- Last updated on 2018 Apr 12
 					echo ================================"
 		"tooltip" "HUD Info"
 	}

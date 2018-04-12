@@ -327,7 +327,7 @@
 				"xpos"			"0"
 				"ypos"			"rs1-3"
 				"wide"			"150"
-				"tall"			"30"
+				"tall"			"35"
 				"proportionaltoparent"	"1"
 
 				if_mini
@@ -341,21 +341,29 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"0"
+					"xpos"			"10"
 					"ypos"			"rs1"
 					"zpos"			"0"
-					"wide"			"100"
+					"wide"			"130"
 					"tall"			"20"
 					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"nüWhite"
-					"textAlignment"	"south-west"
+					"textAlignment"	"center"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 
 					if_mini
 					{
+						"xpos"			"0"
+						"ypos"			"rs1"
+						"zpos"			"0"
+						"wide"			"100"
+						"tall"			"20"
+						"font"			"ItemFontAttribSmall"
+						"fgcolor_override"	"nüWhite"
+						"textAlignment"	"south-west"
 						"visible"		"1"
 					}
 				}

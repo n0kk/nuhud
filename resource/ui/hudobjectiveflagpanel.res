@@ -29,7 +29,7 @@
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"nüBLUTransparent"
+		"fillcolor"		"nüBLUSolid"
 		
 		"if_hybrid"
 		{
@@ -58,7 +58,7 @@
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"nüREDTransparent"
+		"fillcolor"		"nüREDSolid"
 		
 		"if_hybrid"
 		{

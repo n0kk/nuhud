@@ -96,6 +96,12 @@
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
+			if_competitive
+			{
+				"wide"		"40"
+				"tall"		"29"
+			}
+			
 			"PanelCover"
 			{
 				"ControlName"	"ImagePanel"
@@ -109,7 +115,13 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"15 15 15 127 "
+				"fillcolor"		"15 15 15 127"
+				
+				if_competitive
+				{
+					"ypos"		"20"
+					"tall"		"10"
+				}
 			}
 			"playername"
 			{
@@ -127,6 +139,15 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"center"
 				"fgcolor"		"nüWhite"
+				
+				if_competitive
+				{
+				"font"		"DefaultVerySmall"
+				"xpos"			"1"
+				"ypos"			"20"
+				"wide"			"39"
+				"tall"			"10"
+				}
 			}
 			
 			"classimage"
@@ -141,7 +162,14 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
+				"scaleImage"	"1"
+				
+				if_competitive
+				{
+					"wide"			"20"
+					"tall"			"20"
+					"image"			"../vgui/hud_connecting"
+				}
 			}
 			
 			"classimagebg"
@@ -160,6 +188,13 @@
 				
 				if_mvm
 				{
+					"visible"		"1"
+				}
+				
+				if_competitive
+				{
+					"wide"			"20"
+					"tall"			"20"
 					"visible"		"1"
 				}
 			}
@@ -206,7 +241,16 @@
 				if_mvm
 				{
 					"visible"		"1"
-				}	
+				}
+				
+				if_competitive
+				{
+					"xpos"			"24"
+					"ypos"			"5"
+					"wide"			"12"
+					"tall"			"12"
+					"visible"		"1"
+				}
 			}
 			
 			"ReadyImage"
@@ -229,6 +273,15 @@
 				{
 					"visible"		"1"
 				}
+				
+				if_competitive
+				{
+					"xpos"			"26"
+					"ypos"			"7"
+					"wide"			"8"
+					"tall"			"8"
+					"visible"		"1"
+				}
 			}
 			
 			"respawntime"
@@ -243,7 +296,7 @@
 				"tall"			"10"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"

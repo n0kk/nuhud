@@ -564,22 +564,62 @@
 		
 		"parameter_width"	"200"
 
-		"TitleLabel"
+		"VoteSetupD_HeaderContainer"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"nüBold30"
-			"labelText"		"#TF_Vote_Title"
-			"textAlignment"	"north"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"VoteSetupD_HeaderContainer"
 			"xpos"			"0"
-			"ypos"			"6"
+			"ypos"			"0"
 			"wide"			"400"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"tall"			"20"
 			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"0"
+			"PaintBackgroundType" "0"
+			"bgcolor_override"	"nüBase"
+
+			"TitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"TitleLabel"
+				"font"			"nüBold16"
+				"labelText"		"#TF_Vote_Title"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"400"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"wrap"			"0"
+				"fgcolor_override"	"nüWhite"
+				"bgcolor_override"	"Blank"
+			}
+			
+			"TitleLabelShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"TitleLabelShadow"
+				"font"			"nüBoldShadow16"
+				"labelText"		"#TF_Vote_Title"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"-1"
+				"zpos"			"0"
+				"wide"			"400"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"wrap"			"0"
+				"fgcolor_override"	"ShadowBlack"
+
+				"pin_to_sibling"	"TitleLabel"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
 		}
 									
 		"VoteSetupList"
@@ -668,7 +708,7 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"CallVoteButton"
-			"xpos"		"95"
+			"xpos"		"140"
 			"ypos"		"275"
 			"wide"		"120"
 			"tall"		"20"
@@ -687,11 +727,12 @@
 		}
 		"Button1"
 		{
-			"ControlName"		"Button"
+			"ControlName"		"CExImageButton"
 			"fieldName"		"Button1"
-			"xpos"		"220"
-			"ypos"		"275"
-			"wide"		"80"
+			"xpos"		"r30"
+			"ypos"		"0"
+			"zpos"		"2"
+			"wide"		"30"
 			"tall"		"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -705,6 +746,29 @@
 			"Command"		"Close"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
+			"proportionaltoparent"	"1"
+
+			"paintbackground"	"0"
+
+			"defaultFgColor_override" 	"Blank"
+			"armedFgColor_override"   	"Blank"
+			"depressedFgColor_override" "Blank"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/buttons/close"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
 		}
 	}
 }

@@ -134,9 +134,9 @@ Scheme
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset			"6"
-		Menu.FgColor			"nüWhite"
+		Menu.TextColor			"nüWhite"
 		Menu.BgColor			"nüGrey"
-		Menu.ArmedFgColor		"nüWhite"
+		Menu.ArmedTextColor		"nüWhite"
 		Menu.ArmedBgColor		"nüLightBase"
 		Menu.DividerColor		"BorderDark"
 		

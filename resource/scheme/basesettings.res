@@ -16,7 +16,7 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"30 30 30 255"
+		Econ.Button.BgColor									"25 25 25 255"
 		Econ.Button.FgColor									"nüWhite"
 		Econ.Button.ArmedBgColor							"0 126 140 255"
 		Econ.Button.ArmedFgColor							"nüWhite"
@@ -36,7 +36,7 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"nüWhite"
-		Button.BgColor					"30 30 30 255"
+		Button.BgColor					"25 25 25 255"
 		Button.ArmedTextColor			"nüWhite"
 		Button.ArmedBgColor				"0 126 140 255"
 		Button.SelectedTextColor		"nüWhite"

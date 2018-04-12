@@ -46,6 +46,10 @@
 		{
 			"visible"	"0"
 		}
+		if_competitive
+		{
+			"visible"	"0"
+		}
 	}
 
 	"TimePanelProgressBar"

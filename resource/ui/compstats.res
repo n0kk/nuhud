@@ -7,51 +7,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"260"
-		"tall"			"330"
+		"wide"			"257"
+		"tall"			"345"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
-		"RankImage"
-		{
-			"ControlName"	"CTFLocalPlayerBadgePanel"
-			"fieldName"		"RankImage"
-			"xpos"			"-8"
-			"ypos"			"-15"
-			"zpos"			"110"
-			"wide"			"o1"
-			"tall"			"70"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Ladder_6v6"
-		}
-	
-		"RankPanel"
-		{
-			"ControlName"	"CPvPRankPanel"
-			"fieldName"		"RankPanel"
-			"xpos"			"35"
-			"ypos"			"-15"
-			"zpos"			"100"
-			"wide"			"320"
-			"tall"			"100"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Ladder_6v6"
-
-			"show_model"	"0"
-			"show_name"		"0"
-
-			"BGBorder"
-			{
-				"visible"	"0"
-			}
-		}
 
 		"ShowLeaderboardsButton"
 		{
@@ -333,7 +292,7 @@
 				{
 					"ControlName"	"ScrollBar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
+					"xpos"			"rs0.7-1"
 					"ypos"			"0"
 					"tall"			"f0"
 					"wide"			"5" // This gets slammed from client schme.  GG.

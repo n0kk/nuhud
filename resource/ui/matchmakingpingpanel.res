@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"PingPanel"
 		"xpos"			"-300"
-		"ypos"			"10"
+		"ypos"			"40"
 		"zpos"			"1001"
-		"wide"			"300"
-		"tall"			"f70"
+		"wide"			"260"
+		"tall"			"f100"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -37,7 +37,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"13"
-		"ypos"		"15"
+		"ypos"		"0"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"30"
@@ -289,7 +289,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs0.7-1"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.

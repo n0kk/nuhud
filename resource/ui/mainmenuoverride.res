@@ -372,7 +372,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 240"
+		"bgcolor_override"	"15 15 15 240"
 		
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
@@ -507,17 +507,17 @@
 			"fieldName"		"MOTD_TitleLabel"
 			"font"			"nüBold14"
 			"labelText"		"%motdtitle%"
-			"textAlignment"	"center"
-			"xpos"			"8"
-			"ypos"			"25"
-			"wide"			"250"
+			"textAlignment"	"west"
+			"xpos"			"10"
+			"ypos"			"24"
+			"wide"			"280"
 			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"nüWhite"
-			"wrap"			"1"
+			"wrap"			"0"
 		}
 		
 		"MOTD_Label"
@@ -526,11 +526,11 @@
 			"fieldName"		"MOTD_Label"
 			"font"			"nü11"
 			"labelText"		"%motddate%"
-			"textAlignment"	"north-west"
+			"textAlignment"	"west"
 			"xpos"			"10"
-			"ypos"			"39"
+			"ypos"			"38"
 			"wide"			"300"
-			"tall"			"15"
+			"tall"			"13"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -758,7 +758,7 @@
 				"scaleImage"	"1"
 			}
 		}
-	}	
+	}
 	
 	"Notifications_ShowButtonPanel"
 	{
@@ -767,7 +767,7 @@
 		"xpos"			"r70"
 		"ypos"			"0"
 		"zpos"			"11"
-		"wide"			"25"
+		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -801,10 +801,10 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
+			"paintbackground" "0"
 
 			"image_drawcolor"	"nüWhite"
-			"image_armedcolor"	"nüBase"
+			"image_armedcolor"	"nüWhite"
 
 			"SubImage"
 			{
@@ -830,16 +830,18 @@
 			"font"			"nüBold8"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"15"
+			"xpos"			"rs1"
 			"ypos"			"0"
 			"zpos"			"4"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"8"
+			"tall"			"8"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"nüWhite"
+			"bgcolor_override"	"RedSolid"
+			"proportionaltoparent"	"1"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -869,7 +871,14 @@
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			"paintbackground" "1"
+
+			"defaultFgColor_override" "nüWhite"
+			"armedFgColor_override"   "nüWhite"
+			"defaultBgColor_override" "Blank"
+			"armedBgColor_override"   "nüLightBase"
 
 			"image_drawcolor"	"nüWhite"
 			"image_armedcolor"	"nüWhite"
@@ -886,7 +895,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/notification_active"
+				"image"			"replay/thumbnails/buttons/notification"
 				"proportionaltoparent"	"1"
 			}
 		}
@@ -1171,9 +1180,9 @@
 		"tall"			"94"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"23 20 31 230"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
@@ -1249,7 +1258,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"11"
-		"wide"			"55"
+		"wide"			"50"
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"	
@@ -1261,7 +1270,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"55"
+			"wide"			"50"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -1295,7 +1304,7 @@
 			"xpos"			"0"
 			"ypos"			"1"
 			"zpos"			"0"
-			"wide"			"55"
+			"wide"			"50"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -1313,7 +1322,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HUDVersion"
 		"font"			"DefaultVerySmall"
-		"labelText"		"v2018.04.04"
+		"labelText"		"v2018.04.12"
 		"textAlignment"	"east"
 		"xpos"			"r54"
 		"ypos"			"r10"
@@ -1381,8 +1390,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"15"
-				"tall"			"15"
+				"wide"			"18"
+				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -1400,7 +1409,7 @@
 		"ypos"			"0"
 		"zpos"			"-100"
 		"wide"			"150"
-		"tall"			"f0"
+		"tall"			"460"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"15 15 15 215"
@@ -1411,7 +1420,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"0"
-		"ypos"			"cs-0.5-100"
+		"ypos"			"cs-0.5-85"
 
 		"zpos"			"-51"
 		"wide"			"150"
@@ -1430,7 +1439,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"70"
-		"ypos"			"95"
+		"ypos"			"110"
 		"wide"			"10"
 		"tall"			"10"
 		"autoResize"	"0"
@@ -1500,7 +1509,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"0"
-		"ypos"			"175"
+		"ypos"			"190"
 		"zpos"			"-52"
 		"wide"			"150"
 		"tall"			"100"
@@ -1519,7 +1528,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
 		"xpos"			"0"
-		"ypos"			"125"
+		"ypos"			"140"
 		"zpos"			"-99"
 		"wide"			"150"
 		"tall"			"100"
@@ -1569,15 +1578,107 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"CharacterSetupButton"
+	"ServerBrowserButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CharacterSetupButton"
+		"fieldname"		"ServerBrowserButton"
 		"xpos"			"0"
 		"ypos"			"250"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"nüBold14"
+			"textAlignment"	"center"
+			"textinsetx"	"0"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"proportionaltoparent"	"1"
+			
+			"border_default"	"NoBorder"
+			"border_armed"		"nüMenuButtonBorder"
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" "nüOffWhite"
+			"armedFgColor_override"   "nüWhite"
+			"depressedFgColor_override" "nüWhite"
+			"defaultBgColor_override" "Blank"
+			"armedBgColor_override"   "47 47 47 215"
+			"depressedBgColor_override" "47 47 47 215"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"0"
+			}
+		}
+		
+		"SubButtonShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SubButtonShadow"
+			"xpos"			"0"
+			"ypos"			"-1"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"Servers"
+			"font"			"nüBoldShadow14"
+			"textAlignment"	"center"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"fgcolor"		"ShadowBlack"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"SubButton"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		}
+	}
+
+	"CharacterSetupButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"CharacterSetupButton"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"150"
+		"tall"			"20"
+		"visible"		"1"
+
+		"pin_to_sibling"	"ServerBrowserButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		"SubButton"
 		{
@@ -1662,10 +1763,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
 		"xpos"			"0"
-		"ypos"			"270"
+		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
+
+		"pin_to_sibling"	"CharacterSetupButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 		"SubButton"
 		{
@@ -1750,10 +1855,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SettingsButton"
 		"xpos"			"0"
-		"ypos"			"290"
+		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
+
+		"pin_to_sibling"	"GeneralStoreButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		"SubButton"
 		{
@@ -1839,10 +1948,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TF2SettingsButton"
 		"xpos"			"0"
-		"ypos"			"310"
+		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
+
+		"pin_to_sibling"	"SettingsButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		"SubButton"
 		{
@@ -1928,10 +2041,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ScoreboardButton"
 		"xpos"			"0"
-		"ypos"			"330"
+		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
+
+		"pin_to_sibling"	"TF2SettingsButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		"SubButton"
 		{
@@ -2002,10 +2119,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		"xpos"			"0"
-		"ypos"			"350"
+		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
+
+		"pin_to_sibling"	"ScoreboardButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		"SubButton"
 		{
@@ -2076,10 +2197,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
 		"xpos"			"0"
-		"ypos"			"370"
+		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
+
+		"pin_to_sibling"	"ConsoleButton"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 		
 		"SubButton"
 		{
@@ -2150,13 +2275,16 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MenuBottomPanel"
 		"xpos"			"0"
-		"ypos"			"r20"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"15 15 15 127"
+		"bgcolor_override"	"15 15 15 230"
+
+		"pin_to_sibling"	"MenuSidePanel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 
 	"HomeServer"
@@ -2165,7 +2293,6 @@
 		"fieldName"		"HomeServer"
 		"xpos"			"25"
 		"ypos"			"r20"
-		"zpos"			"11"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
@@ -2198,8 +2325,8 @@
 			"paintbackground"	"1"
 			
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "47 47 47 215"
-			"depressedBgColor_override" "47 47 47 215"
+			"armedBgColor_override"   "45 45 45 140"
+			"depressedBgColor_override" "45 45 45 140"
 
 			"image_drawcolor"	"160 160 160 255"
 			"image_armedcolor"	"nüWhite"
@@ -2261,8 +2388,8 @@
 			"paintbackground"	"1"
 
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "47 47 47 215"
-			"depressedBgColor_override" "47 47 47 215"
+			"armedBgColor_override"   "45 45 45 140"
+			"depressedBgColor_override" "45 45 45 140"
 
 			"image_drawcolor"	"160 160 160 255"
 			"image_armedcolor"	"nüWhite"
@@ -2322,8 +2449,8 @@
 			"paintbackground"	"1"
 			
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "47 47 47 215"
-			"depressedBgColor_override" "47 47 47 215"
+			"armedBgColor_override"   "45 45 45 140"
+			"depressedBgColor_override" "45 45 45 140"
 
 			"image_drawcolor"	"160 160 160 255"
 			"image_armedcolor"	"nüWhite"
@@ -2374,8 +2501,8 @@
 		"paintbackground"	"1"
 		
 		"defaultBgColor_override" "Blank"
-		"armedBgColor_override"   "47 47 47 215"
-		"depressedBgColor_override" "47 47 47 215"
+		"armedBgColor_override"   "45 45 45 140"
+		"depressedBgColor_override" "45 45 45 140"
 
 		"image_drawcolor"	"160 160 160 255"
 		"image_armedcolor"	"nüWhite"
@@ -2417,16 +2544,16 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
-		"sound_depressed"	""
-		"sound_released"	""
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"1"
 		
 		"defaultBgColor_override" "Blank"
-		"armedBgColor_override"   "47 47 47 215"
-		"depressedBgColor_override" "47 47 47 215"
+		"armedBgColor_override"   "45 45 45 140"
+		"depressedBgColor_override" "45 45 45 140"
 
 		"image_drawcolor"	"160 160 160 255"
 		"image_armedcolor"	"nüWhite"
@@ -2486,8 +2613,8 @@
 			"paintbackground"	"1"
 			
 			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "47 47 47 215"
-			"depressedBgColor_override" "47 47 47 215"
+			"armedBgColor_override"   "45 45 45 140"
+			"depressedBgColor_override" "45 45 45 140"
 
 			"image_drawcolor"	"160 160 160 255"
 			"image_armedcolor"	"nüWhite"
@@ -2920,57 +3047,38 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
-		"xpos"			"r145"
-		"ypos"			"cs-0.5+20"
+		"xpos"			"0"
+		"ypos"			"40"
 		"zpos"			"-1"
-		"wide"			"145"
-		"tall"			"232"
+		"wide"			"150"
+		"tall"			"54"	//30 1 row, 54 2 rows
 		"visible"		"1"
 
 		"border"		"NoBorder"
-		"bgcolor_override"	"15 15 15 215"
-
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"nüBold14"
-			"labelText"		"Friends"
-			"textAlignment"	"west"
-			"xpos"			"12"
-			"ypos"			"6"
-			"wide"			"f0"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"nüWhite"
-		}
+		"bgcolor_override"	"0 0 0 0"
 
 		"SteamFriendsList"
 		{
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"cs-0.5"
 			"zpos"			"500"
-			"wide"			"f20"
-			"tall"			"198"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
-			"columns_count"	"1"
-			"inset_x"		"10"
+			"columns_count"	"2"
+			"inset_x"		"5"
 			"inset_y"		"5"
 			"row_gap"		"4"
-			"column_gap"	"25"
+			"column_gap"	"4"
 			"restrict_width"	"0"
 
 			"friendpanel_kv"
 			{
-				"wide"		"105"
+				"wide"		"68"
 				"tall"		"20"
 			}
 
@@ -2978,7 +3086,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs0.7-1"
+				"xpos"			"rs0.7"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
@@ -2988,7 +3096,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"nüBase"
 				}
 		
 				"UpButton"
@@ -3012,10 +3120,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"cs-0.5"
 			"zpos"			"499"
-			"wide"			"f20"
-			"tall"			"198"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"

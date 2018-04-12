@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"40"
 		"zpos"			"1001"
-		"wide"			"280"
-		"tall"			"f70"
+		"wide"			"275"
+		"tall"			"f100"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -19,7 +19,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"15"
+		"ypos"		"0"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"30"

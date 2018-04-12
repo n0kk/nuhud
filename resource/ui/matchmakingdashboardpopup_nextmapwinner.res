@@ -6,7 +6,7 @@
 		"fieldName"		"NextMapWinner"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"10002"
+		"zpos"			"10000"
 		"wide"			"260"
 		"tall"			"80"
 		"visible"		"1"

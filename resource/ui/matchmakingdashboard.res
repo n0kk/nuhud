@@ -376,7 +376,7 @@
 				"xpos"			"rs1"
 				"ypos"			"0"
 				"zpos"			"10"
-				"wide"			"20"
+				"wide"			"30"
 				"tall"			"f0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -401,7 +401,7 @@
 				"armedFgColor_override"   	"Blank"
 				"depressedFgColor_override" "Blank"
 
-				"image_drawcolor"	"nüWhite"
+				"image_drawcolor"	"nüOffWhite"
 				"image_armedcolor"	"nüWhite"
 				"SubImage"
 				{

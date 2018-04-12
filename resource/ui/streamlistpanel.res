@@ -105,19 +105,6 @@
 		}			
 	}
 
-	"Background"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"-1"
-		"wide"			"437"
-		"tall"			"94"
-		"visible"		"1"
-		"bgcolor_override"	"15 15 15 215"
-	}
-
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
