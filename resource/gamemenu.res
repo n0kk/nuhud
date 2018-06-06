@@ -74,14 +74,6 @@
 		"OnlyInGame"	"1"
 		"tooltip"		"Report Player"
 	}
-	"RequestCoachButton"
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "Request Coach"
-	}
 
 	//IMAGE BUTTONS
 	"HomeServer"
@@ -94,7 +86,6 @@
 	{
 		"label" ""
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
 		"tooltip" "Create Server"
 	}
 	"InfoButton"
@@ -104,9 +95,18 @@
 					echo ================================
 					echo --- nuhud
 					echo --- by Nokk
-					echo --- Last updated on 2018 Apr 12
+					echo --- Last updated on 2018 Jun 06
 					echo ================================"
 		"tooltip" "HUD Info"
+	}
+
+	"RequestCoachButton"	//UNUSED
+	{
+		"label"			""
+		"command"		"engine cl_coach_find_coach"
+		"OnlyInGame"	"1"
+		"subimage" "icon_whistle"
+		"tooltip" "Request Coach"
 	}
 	"SteamWorkshopButton"	//UNUSED
 	{

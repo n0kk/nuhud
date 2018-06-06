@@ -436,6 +436,7 @@
 						"progress"		"0"
 
 						"fgcolor_override"	"CreditsGreen"
+						"bgcolor_override"	"127 127 127 140"
 					}
 
 					"Frame"

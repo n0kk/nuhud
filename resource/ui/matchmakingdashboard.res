@@ -414,7 +414,7 @@
 					"tall"			"14"
 					"visible"		"1"
 					"enabled"		"1"
-					"image"			"glyph_options"
+					"image"			"replay/thumbnails/buttons/settings"
 					"scaleImage"	"1"
 					"proportionaltoparent"	"1"
 				}				

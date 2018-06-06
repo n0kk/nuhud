@@ -3,6 +3,7 @@
 //------------------------------------------
 
 	#base "scheme/fonts_Cabin.res"
+	//#base "scheme/fonts_ProductSans.res"
 	//#base "scheme/fonts_Roboto.res"
 
 // Do not change these
@@ -69,15 +70,25 @@ Scheme
 		}
 		"12"
 		{
+			"font" "resource/fonts/Product Sans Bold.ttf"
+			"name" "Product Sans Bold"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Product Sans Regular.ttf"
+			"name" "Product Sans"
+		}
+		"14"
+		{
 			"font" "resource/fonts/Roboto-Regular.ttf"
 			"name" "Roboto"
 		}
-		"13"
+		"15"
 		{
 			"font" "resource/fonts/Roboto-Medium.ttf"
 			"name" "Roboto Medium"
 		}
-		"14"
+		"16"
 		{
 			"font" "resource/fonts/Roboto-Bold.ttf"
 			"name" "Roboto Bold"

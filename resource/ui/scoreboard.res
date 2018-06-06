@@ -9,19 +9,6 @@
 
 "Resource/UI/Scoreboard.res"
 {
-	"MainBG"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		//"bgcolor_override"	"15 15 15 140"
-	}
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
@@ -88,6 +75,29 @@
 			"visible"		"0"
 		}
 	}
+	"BluePlayerlistBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BluePlayerlistBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"246"
+		"tall"			"164"
+		"tall_minmode"	"88"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"15 15 15 140"
+
+		"pin_to_sibling"	"BlueScoreBG2"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"RedScoreBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -120,6 +130,29 @@
 		"bgcolor_override"	"nüREDTransparent"
 
 		"pin_to_sibling"	"RedScoreBG"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"RedPlayerlistBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RedPlayerlistBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"246"
+		"tall"			"164"
+		"tall_minmode"	"88"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"15 15 15 140"
+
+		"pin_to_sibling"	"RedScoreBG2"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 

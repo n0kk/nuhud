@@ -36,14 +36,14 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"13"
-		"ypos"		"0"
+		"xpos"		"0"
+		"ypos"		"12"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"30"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_MM_OpenSettings"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"font"			"nüBold30"
 		"fgcolor_override"	"nüWhite"
 		

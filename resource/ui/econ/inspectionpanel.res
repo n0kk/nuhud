@@ -229,7 +229,8 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"	"35 35 35 255"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 

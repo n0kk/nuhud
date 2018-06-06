@@ -1,3 +1,5 @@
+#base "mainmenucpicon.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -1322,7 +1324,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"HUDVersion"
 		"font"			"DefaultVerySmall"
-		"labelText"		"v2018.04.12"
+		"labelText"		"v2018.06.06"
 		"textAlignment"	"east"
 		"xpos"			"r54"
 		"ypos"			"r10"
@@ -1583,7 +1585,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
 		"xpos"			"0"
-		"ypos"			"250"
+		"ypos"			"260"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"1"
@@ -2291,7 +2293,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HomeServer"
-		"xpos"			"25"
+		"xpos"			"35"
 		"ypos"			"r20"
 		"wide"			"20"
 		"tall"			"20"
@@ -2353,7 +2355,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"45"
+		"xpos"			"55"
 		"ypos"			"r20"
 		"zpos"			"12"
 		"wide"			"20"
@@ -2411,123 +2413,11 @@
 		}		
 	}
 	
-	"RequestCoachButton"	//IN-GAME BUTTON
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"45"
-		"ypos"			"r20"
-		"zpos"			"0"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"font"			""
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"NoBorder"
-			"border_armed"		"NoBorder"
-			"paintbackground"	"1"
-			
-			"defaultBgColor_override" "Blank"
-			"armedBgColor_override"   "45 45 45 140"
-			"depressedBgColor_override" "45 45 45 140"
-
-			"image_drawcolor"	"160 160 160 255"
-			"image_armedcolor"	"nüWhite"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"4"
-				"ypos"			"4"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_create"
-				"scaleImage"	"1"
-			}				
-		}
-	}
-	
-	"CoachPlayersButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
-		"xpos"			"65"
-		"ypos"			"r20"
-		"zpos"			"0"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			""
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine cl_coach_toggle"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
-		"paintbackground"	"1"
-		
-		"defaultBgColor_override" "Blank"
-		"armedBgColor_override"   "45 45 45 140"
-		"depressedBgColor_override" "45 45 45 140"
-
-		"image_drawcolor"	"160 160 160 255"
-		"image_armedcolor"	"nüWhite"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"12"
-			"tall"			"12"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_commentary"
-			"scaleImage"	"1"
-		}				
-	}
-	
 	"AchievementsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"85"
+		"xpos"			"75"
 		"ypos"			"r20"
 		"zpos"			"0"
 		"wide"			"20"
@@ -2578,7 +2468,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"InfoButton"
-		"xpos"			"105"
+		"xpos"			"95"
 		"ypos"			"r20"
 		"zpos"			"11"
 		"wide"			"20"
@@ -2824,19 +2714,131 @@
 				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/buttons/report"
+				"image"			"replay/thumbnails/buttons/warning"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 			}				
 		}
 	}
 
+	"RequestCoachButton"	//UNUSED
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"RequestCoachButton"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"20"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"font"			""
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			"paintbackground"	"1"
+			
+			"defaultBgColor_override" "Blank"
+			"armedBgColor_override"   "45 45 45 140"
+			"depressedBgColor_override" "45 45 45 140"
+
+			"image_drawcolor"	"160 160 160 255"
+			"image_armedcolor"	"nüWhite"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"4"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+			}				
+		}
+	}
+	
+	"CoachPlayersButton"	//UNUSED
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CoachPlayersButton"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			""
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine cl_coach_toggle"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override" "Blank"
+		"armedBgColor_override"   "45 45 45 140"
+		"depressedBgColor_override" "45 45 45 140"
+
+		"image_drawcolor"	"160 160 160 255"
+		"image_armedcolor"	"nüWhite"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"12"
+			"tall"			"12"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_commentary"
+			"scaleImage"	"1"
+		}				
+	}
+
 	"SteamWorkshopButton"	//UNUSED
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"80"
-		"ypos"			"266"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"14"
 		"tall"			"14"
@@ -2896,8 +2898,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"45"
-		"ypos"			"r30"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"14"
 		"tall"			"14"
@@ -2943,8 +2945,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"85"
-		"ypos"			"r30"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"14"
 		"tall"			"14"
@@ -2989,8 +2991,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"105"
-		"ypos"			"r30"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"14"
 		"tall"			"14"

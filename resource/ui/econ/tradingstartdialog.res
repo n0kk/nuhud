@@ -61,24 +61,57 @@
 			}
 		}
 	}
-	
-	"TitleLabel"
+
+	"TradingStartDialog_HeaderContainer"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"			"nüBold28"
-		"labelText"		"#TF_TradeStartDialog_Title"
-		"textAlignment"	"north"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTD_HeaderContainer"
 		"xpos"			"0"
-		"ypos"			"15"
-		"zpos"			"1"
+		"ypos"			"0"
 		"wide"			"300"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"nüBase"
+	
+	
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"nüBold16"
+			"labelText"		"#TF_TradeStartDialog_Title"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override" "nüWhite"
+		}
+
+		"TitleLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabelShadow"
+			"font"			"nüBoldShadow16"
+			"labelText"		"#TF_TradeStartDialog_Title"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"1"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override" "ShadowBlack"
+		}
 	}
 	
 	"PlayerListScroller"

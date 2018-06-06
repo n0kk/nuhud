@@ -87,7 +87,7 @@
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
 		"mouseinputenabled"	"0"
-		"alpha"		"255"
+		"alpha"		"127"
 
 		"image"		"gradient_pure_black"
 	}
