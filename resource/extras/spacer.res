@@ -1,6 +1,6 @@
 // Credit to Pigby
-// Note: Certain HUD Elements (e.g., health pickup, damage numbers, metal count) are not
-// moved using the spacer positioning. Move those individually in their respective files.
+// Note: Certain HUD Elements (e.g., health pickup, health cross, metal count) are not
+// moved using spacer positioning. Move those individually in their respective files.
 
 "Resource/Tools/Spacer.res"
 {

@@ -1,3 +1,5 @@
+#base "../extras/spacer.res"
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -17,8 +19,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c100"
-		"ypos"			"c90"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"16"
@@ -28,6 +30,10 @@
 		"textAlignment"	"center"
 		"fgcolor"		"Damage Numbers"
 		"font"			"nüMedium20"
+
+		"pin_to_sibling"	"AmmoSubSpacer"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}
 	
 	"DamageAccountValueShadow"
