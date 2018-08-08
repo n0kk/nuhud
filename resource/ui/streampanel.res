@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabelShadow"
-		"font"			"nüBoldShadow10"
+		"font"			"nüBoldBlur10"
 		"labelText"		"%display_name%"
 		"textAlignment"	"center"
 		"xpos"			"0"

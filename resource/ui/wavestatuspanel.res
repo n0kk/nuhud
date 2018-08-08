@@ -44,7 +44,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabelShadow"
-		"font"			"nüMediumShadow14"
+		"font"			"nüMediumBlur14"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"200"
 		"xpos_minmode"	"5"
@@ -114,7 +114,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/bg_white"
+		"image"			"replay/thumbnails/white"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

@@ -146,39 +146,6 @@
 		"team_colors"		"1"
 	}
 
-	"MenuTopPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MenuTopPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"nüBase"
-	}
-
-	"MatchSummaryLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"MatchSummaryLabel"
-		"font"			"nüBold16"
-		"labelText"		"Match Summary"
-		"textAlignment"		"west"
-		"xpos"			"30"
-		"ypos"			"0"
-		"zpos"			"50"
-		"wide"			"f0"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "nüWhite"
-	}	
-
 	"MainStatsContainer"
 	{
 		"Controlname"	"EditablePanel"
@@ -324,7 +291,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamScoreDropshadow"
-					"font"			"nüMediumShadow36"
+					"font"			"nüMediumBlur36"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamscore%"
 					"textAlignment"		"east"
@@ -369,7 +336,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"nüMediumShadow20"
+					"font"			"nüMediumBlur20"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%blueteamwinner%"
 					"textAlignment"		"east"
@@ -597,7 +564,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
-					"font"			"nüMediumShadow36"
+					"font"			"nüMediumBlur36"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
@@ -642,7 +609,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"nüMediumShadow20"
+					"font"			"nüMediumBlur20"
 					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"

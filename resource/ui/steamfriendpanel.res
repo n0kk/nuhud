@@ -29,10 +29,10 @@
 		"paintbackground"	"1"
 
 		"defaultBgColor_override"	"0 0 0 0"
-		"armedBgColor_override"	"94 150 49 5"
+		"armedBgColor_override"	"0 126 140 30"
 
 		"border_default"	"NoBorder"
-		"border_armed"		"FriendHighlightBorder"
+		"border_armed"		"NoBorder"
 	}
 
 	"NameLabel"
@@ -51,7 +51,7 @@
 		"wrap"					"0"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"nüMedium8"
+		"font"					"nüMedium10"
 		"mouseinputenabled"		"0"
 	}
 
@@ -59,7 +59,7 @@
 	{
 		"fieldName"				"StatusLabel"
 		"xpos"					"rs1"
-		"ypos"					"11"
+		"ypos"					"12"
 		"zpos"					"100"
 		"wide"					"f22"
 		"tall"					"10"

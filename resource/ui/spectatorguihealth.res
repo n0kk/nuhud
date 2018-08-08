@@ -83,7 +83,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"nüBoldShadow16"
+		"font"			"nüBoldBlur16"
 		"fgcolor"		"ShadowBlack"
 		"labeltext"		"%Health%"
 

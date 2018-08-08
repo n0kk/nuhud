@@ -42,7 +42,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"nüDarkGrey"
+			"fgcolor_override"	"nüBase"
 		}
 		
 		"UpButton"

@@ -1,15 +1,15 @@
 #base "MatchMakingDashboardSidePanel.res"
 
-"Resource/UI/MatchMakingDashboardPlayList.res"
+"Resource/UI/MatchMakingDashboardPlayList.res"	// Main mode selection panel
 {
 	"ExpandableList"
 	{
 		"fieldName"		"ExpandableList"
 		"xpos"			"r0"
-		"ypos"			"40"
+		"ypos"			"20"
 		"zpos"			"1001"
 		"wide"			"275"
-		"tall"			"f100"
+		"tall"			"f80"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -19,7 +19,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"0"
-		"ypos"		"20"
+		"ypos"		"30"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"30"

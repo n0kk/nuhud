@@ -9,7 +9,7 @@
 		"ypos"					"10"
 		"zpos"					"1001"
 		"wide"					"150"
-		"tall"					"205"
+		"tall"					"200"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
@@ -25,7 +25,7 @@
 		"chat_color_party_event"	"Orange"
 
 		"collapsed_height"		"0"
-		"expanded_height"		"205"
+		"expanded_height"		"200"
 		"resize_time"	"0.3"
 		"invalidate_parent_on_resize"	"0"
 	}
@@ -52,7 +52,7 @@
 		"ScrollBar"
 		{
 			"FieldName"		"ScrollBar"
-			"xpos"			"rs1-1"
+			"xpos"			"rs1-0.7"
 			"ypos"			"0"
 			"tall"			"f0"
 			"wide"			"5" // This gets slammed from client schme.  GG.
@@ -62,7 +62,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanDark"
+				"fgcolor_override"	"nüBase"
 			}
 		
 			"UpButton"
@@ -86,7 +86,7 @@
 		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
 		"xpos"			"cs-0.5"
-		"ypos"			"231"
+		"ypos"			"rs1+19"
 		"zpos"			"1"
 		"wide"			"f2"
 		"tall"			"13"

@@ -22,7 +22,7 @@ Scheme
 		//-----------------------------------------
 		
 		"ChargePercent"			"240 240 240 255"
-		"Ubercharge Meter"		"240 240 240 255"
+		"Ubercharge Meter"		"0 255 127 255"
 		"Ubercharge 1"			"0 255 127 255"
 		"Ubercharge 2"			"0 210 105 255"
 		
@@ -40,7 +40,7 @@ Scheme
 		
 		"nüBase"				"0 88 98 255"
 		"nüBaseTransparent"		"0 88 98 140"
-		"nüLightBase"			"0 126 140 215"
+		"nüLightBase"			"0 126 140 255"
 		
 		"nüWhite"				"240 240 240 255"
 		"nüOffWhite"			"160 160 160 255"

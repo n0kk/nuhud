@@ -69,15 +69,10 @@
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"1"		
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_3"		"../hud/character_blue_bg"
 	}
 
 	"classmodelpanelBG"
@@ -86,15 +81,10 @@
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"1"		
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/bg_red"	
-		"teambg_2"			"replay/thumbnails/bg_red"
-		"teambg_3"			"replay/thumbnails/bg_blu"
 	}
 
 	"classmodelpanel"

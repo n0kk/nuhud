@@ -53,7 +53,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"nüMediumShadow18"
+			"font"			"nüMediumBlur18"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"0"
@@ -192,7 +192,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"nüMediumShadow18"
+			"font"			"nüMediumBlur18"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"

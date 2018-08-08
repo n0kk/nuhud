@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabelShadow"
-		"font"			"nüBoldShadow14"
+		"font"			"nüBoldBlur14"
 		"labelText"		"%header%"
 		"textAlignment" "west"
 		"xpos"			"0"

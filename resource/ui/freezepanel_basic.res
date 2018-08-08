@@ -158,7 +158,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKillerShadow"
-			"font"			"nüMediumShadow14"
+			"font"			"nüMediumBlur14"
 			"xpos"			"0"
 			"ypos"			"-1"
 			"zpos"			"5"

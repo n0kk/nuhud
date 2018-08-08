@@ -12,7 +12,6 @@
 	#base "scheme/basesettings.res"
 	#base "scheme/borders.res"
 	#base "scheme/colors.res"
-	#base "scheme/crosshairs.res"
 	#base "scheme/symbols.res"
 
 //------------------------------------------
@@ -45,53 +44,58 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/fonts/Blocks.ttf"
-			"name" "Blocks"
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
 		}
 		"8"
 		{
-			"font" "resource/fonts/Cabin-Regular.otf"
-			"name" "Cabin-Regular"
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
 		}
 		"9"
-		{
-			"font" "resource/fonts/Cabin-Medium.otf"
-			"name" "Cabin-Medium"
-		}
-		"10"
 		{
 			"font" "resource/fonts/Cabin-Bold.otf"
 			"name" "Cabin-Bold"
 		}
+		"10"
+		{
+			"font" "resource/fonts/Cabin-Medium.otf"
+			"name" "Cabin-Medium"
+		}
 		"11"
+		{
+			"font" "resource/fonts/Cabin-Regular.otf"
+			"name" "Cabin-Regular"
+		}
+		"12"
 		{
 			"font"	"resource/fonts/KnucklesCrosses.ttf"
 			"name"	"KnucklesCrosses"
 		}
-		"12"
+		"13"
 		{
 			"font" "resource/fonts/Product Sans Bold.ttf"
 			"name" "Product Sans Bold"
 		}
-		"13"
+		"14"
 		{
 			"font" "resource/fonts/Product Sans Regular.ttf"
 			"name" "Product Sans"
 		}
-		"14"
-		{
-			"font" "resource/fonts/Roboto-Regular.ttf"
-			"name" "Roboto"
-		}
 		"15"
+		{
+			"font" "resource/fonts/Roboto-Bold.ttf"
+			"name" "Roboto Bold"
+		}
+		"16"
 		{
 			"font" "resource/fonts/Roboto-Medium.ttf"
 			"name" "Roboto Medium"
 		}
-		"16"
+		"17"
 		{
-			"font" "resource/fonts/Roboto-Bold.ttf"
-			"name" "Roboto Bold"
+			"font" "resource/fonts/Roboto-Regular.ttf"
+			"name" "Roboto"
 		}
 	}
 }

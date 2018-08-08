@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
-		"ypos"			"40"
+		"ypos"			"20"
 		"zpos"			"1002"
 		"wide"			"260"
-		"tall"			"f100"
+		"tall"			"f80"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -19,7 +19,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"3"
+		"ypos"		"5"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"30"

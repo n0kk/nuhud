@@ -35,7 +35,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabelShadow"
-			"font"			"nüBoldShadow16"
+			"font"			"nüBoldBlur16"
 			"textAlignment"	"east"
 			"labelText"		"Live on"
 			"xpos"			"168"

@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabelShadow"
-		"font"			"nüBoldShadow14"
+		"font"			"nüBoldBlur14"
 		"labelText"		"%header%"
 		"textAlignment" "west"
 		"xpos"			"0"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"nüShadow18"
+		"font"			"nüBlur18"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
 		"xpos"			"99"

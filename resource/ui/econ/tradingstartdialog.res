@@ -98,7 +98,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabelShadow"
-			"font"			"nüBoldShadow16"
+			"font"			"nüBoldBlur16"
 			"labelText"		"#TF_TradeStartDialog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"

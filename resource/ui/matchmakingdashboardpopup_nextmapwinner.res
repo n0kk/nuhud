@@ -15,7 +15,7 @@
 		"mouseinputenabled"		"1"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"76"
+		"expanded_height"	"80"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"

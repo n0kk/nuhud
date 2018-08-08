@@ -601,7 +601,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabelShadow"
-				"font"			"nüBoldShadow16"
+				"font"			"nüBoldBlur16"
 				"labelText"		"#TF_Vote_Title"
 				"textAlignment"	"center"
 				"xpos"			"0"

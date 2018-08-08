@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"nüMediumShadow16"
+		"font"			"nüMediumBlur16"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
 		"xpos"			"25"

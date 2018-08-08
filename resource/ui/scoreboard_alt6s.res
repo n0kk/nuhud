@@ -3,12 +3,12 @@
 	"BlueScoreBG"
 	{
 		"xpos_minmode"	"r258"
-		"ypos_minmode"		"c-122"
+		"ypos_minmode"		"c-120"
 	}
 	"RedScoreBG"
 	{
 		"xpos_minmode"	"r258"
-		"ypos_minmode"		"c0"
+		"ypos_minmode"		"c2"
 	}
 	"RedTeamLabelWorking"
 	{
@@ -41,7 +41,7 @@
 	"TopBarBG"
 	{
 		"xpos_minmode"	"r258"
-		"ypos_minmode"	"c-156"
+		"ypos_minmode"	"c-154"
 		"wide_minmode"	"246"
 	}
 	"MapName"
@@ -55,7 +55,7 @@
 	"LocalPlayerStatsPanel"
 	{
 		"xpos_minmode"	"r258"
-		"ypos_minmode"		"c122"
+		"ypos_minmode"		"c124"
 		"wide_minmode"	"246"
 
 		"KillsLabel"

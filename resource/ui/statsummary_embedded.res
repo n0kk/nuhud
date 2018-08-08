@@ -88,6 +88,22 @@
 		"visible"	"1"
 		"enabled"	"1"
 
+		"MainBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"MainBG"
+			"xpos"			"c-296"
+			"ypos"			"180"
+			"zpos"			"-1"
+			"wide"			"598"
+			"tall"			"221"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"0 0 0 80"
+		}
+
 		"NonInteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
@@ -1931,8 +1947,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
-		"xpos"			"c-285"
-		"ypos"			"310"
+		"xpos"			"c-296"
+		"ypos"			"318"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
@@ -1948,8 +1964,8 @@
 		"font"			"nü10"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
-		"xpos"			"c-245"
-		"ypos"			"303"
+		"xpos"			"c-256"
+		"ypos"			"310"
 		"zpos"			"12"
 		"wide"			"340"
 		"tall"			"48"
@@ -1963,8 +1979,8 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-285"
-		"ypos"			"350"
+		"xpos"			"c-296"
+		"ypos"			"358"
 		"zpos"			"6"
 		"wide"			"90"
 		"tall"			"15"
@@ -1983,8 +1999,8 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ResetStatsButton"
-		"xpos"			"c130"
-		"ypos"			"310"
+		"xpos"			"c125"
+		"ypos"			"318"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"

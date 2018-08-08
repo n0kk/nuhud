@@ -592,9 +592,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"50 50 50 255"
+			"color"					"35 35 35 255"
 			
-			"image"					"backpack_rect_mouseover_color"
+			"image"					"replay/thumbnails/white"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -2034,7 +2034,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_dgrey"
+			"color"					"25 25 25 255"
+			"image"					"replay/thumbnails/white"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

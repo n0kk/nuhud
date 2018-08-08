@@ -6,12 +6,10 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"4"
-		"wide"			"14"
-		"tall"			"14"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthImageBG"
 	{
@@ -19,13 +17,10 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"
 	}
 	"BuildingStatusHealthImageBG"
 	{
@@ -33,13 +28,10 @@
 		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthBonusImage"
 	{
@@ -52,10 +44,9 @@
 		"tall"			"23"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/blank" //../hud/health_over_bg
+		"image"			"replay/thumbnails/blank"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-
 	}
 	"PlayerStatusHealthLowBG"
 	{
@@ -105,11 +96,11 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labeltext"		"%Health%"
-		"font"			"nüBoldShadow14"
+		"font"			"nüBoldBlur14"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"PlayerStatusHealthValueSpecT"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

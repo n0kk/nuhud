@@ -1,15 +1,16 @@
+#base "../extras/spacer.res"
+
 "Resource/UI/HudPlayerHealth.res"
-{	
-	// player health data
+{
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-270"
-		"ypos"			"c95"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"170"
-		"tall"			"120"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -47,8 +48,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"102"
-		"ypos"			"17"
+		"xpos"			"c-173"
+		"ypos"			"c110"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"36"
@@ -61,44 +62,48 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"75"
-		"ypos"			"10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"90"
-		"tall"			"50"
+		"wide"			"100"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"nüBold40"
 		"fgcolor"		"nüWhite"
+
+		"pin_to_sibling"	"Spacer"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"1"
+		"xpos"			"-1"
 		"ypos"			"-1"
 		"zpos"			"5"
-		"wide"			"90"
-		"tall"			"50"
+		"wide"			"100"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"nüBoldShadow40"
+		"font"			"nüBoldBlur40"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"	"1"
-        "pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"PlayerStatusHealthBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerStatusHealthBG"
-		"xpos"			"-9"
-		"ypos"			"-9"
+		"xpos"			"0"
+		"ypos"			"-7"
 		"zpos"			"3"
 		"wide"			"72"
 		"tall"			"32"
@@ -108,8 +113,24 @@
 		"PaintBackgroundType"	"2"
 
 		"pin_to_sibling"	"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
+		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
+	}
+	"PlayerStatusAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerStatusAnchor"
+		"xpos"			"3"
+		"ypos"			"30"
+		"wide"			"1"
+		"tall"			"1"
+		"visible"		"0"
+		"enabled"		"0"
+		"bgcolor_override"	"0 0 0 127"
+
+		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"PlayerStatusBleedImage"
 	{
@@ -118,13 +139,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatusHookBleedImage"
 	{
@@ -133,13 +158,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"8"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop_grapple"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatusMilkImage"
 	{
@@ -148,13 +177,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatusGasImage"
 	{
@@ -163,13 +196,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -178,13 +215,17 @@
 		"xpos"			"85"
 		"ypos"			"25"
 		"zpos"			"7"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -193,13 +234,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicUberBulletResistImage"
 	{
@@ -208,13 +253,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -223,29 +272,36 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
 		"xpos"			"85"
-
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -255,13 +311,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -270,13 +330,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_explosion_blue"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -285,32 +349,37 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_fire_blue"
 		"fgcolor"		"TanDark"
-	}
-	
 
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"35"
-		"ypos"			"23"
+		"xpos"			"85"
+		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
-	}
 
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
 	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -318,15 +387,18 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-	}
 
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
 	"PlayerStatus_SoldierDefenseBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -334,15 +406,18 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
-	}
 
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -350,13 +425,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -365,13 +444,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneStrength"
 	{
@@ -380,13 +463,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_strength_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneHaste"
 	{
@@ -395,13 +482,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_haste_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneRegen"
 	{
@@ -410,13 +501,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_regen_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneResist"
 	{
@@ -425,13 +520,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_resist_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneVampire"
 	{
@@ -440,13 +539,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneReflect"
 	{
@@ -455,13 +558,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_warlock_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RunePrecision"
 	{
@@ -470,13 +577,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_precision_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneAgility"
 	{
@@ -485,13 +596,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
@@ -500,13 +615,17 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneKing"
 	{
@@ -516,13 +635,17 @@
 		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_king_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RunePlague"
 	{
@@ -532,13 +655,17 @@
 		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_plague_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
@@ -548,13 +675,17 @@
 		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"19"
-		"tall"			"19"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	"PlayerStatusSlowed"
 	{
@@ -563,12 +694,16 @@
 		"xpos"			"85"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"	"PlayerStatusAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 }

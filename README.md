@@ -1,17 +1,17 @@
 # nühud
 
-I got tired of ahud and made a new hud — a work in progress.
+I got tired of ahud and made a new hud.
 
 #### Screenshots
 
-* [Main Menu](https://i.imgur.com/vQAvmQi.jpg)
-* [Class Loadout](https://i.imgur.com/waGK5pI.jpg)
-* [Team Select](https://i.imgur.com/hp37Uxd.jpg)
-* [Class Select](https://i.imgur.com/hXr0fsi.jpg)
-* [Buffed HP & Target ID](https://i.imgur.com/yBgVnao.jpg)
-* [Low HP & Ammo](https://i.imgur.com/G6QpWpP.jpg)
-* [12v12 Scoreboard](https://i.imgur.com/F95Z2Ac.jpg)
-* [6v6 Scoreboard](https://i.imgur.com/Tfuz71z.jpg)
+* [Main Menu](https://i.imgur.com/vfzsQNn.jpg)
+* [Class Loadout](https://i.imgur.com/dNiXLNd.png)
+* [Team Select](https://i.imgur.com/Yo75q3c.jpg)
+* [Class Select](https://i.imgur.com/SqoKzQi.jpg)
+* [Buffed HP & Target ID](https://i.imgur.com/cx6Y2He.jpg)
+* [Low HP & Ammo](https://i.imgur.com/NtcfKfl.jpg)
+* [12v12 Scoreboard](https://i.imgur.com/UFP3qr8.png)
+* [6v6 Scoreboard](https://i.imgur.com/nGcmSBJ.png)
 
 More screenshots [here](http://imgur.com/a/QjJSX).
 
@@ -33,6 +33,6 @@ Refer to the [Wiki](https://github.com/n0kk/nuhud/wiki/Customization).
 No.
 
 ## Credits
-A few shout-outs to the people who have helped me directly and indirectly, as well as inspiring me with their own creations—old and new, finished and unfinished.
+A few shout-outs to the people who have helped me directly and indirectly, and to the people who have inspired me with their own creations—old and new, finished and unfinished.
 
-In alphabetical order: **colly**, **extracrispy**, **JarateKing**, **merlin**, **nimtra**, **omnibombulator**, **Pigby**, **Rawrsor**, **Sevin**, **Whisker**, and **Wiethoofd**
+In alphabetical order: **Codexa**, **colly**, **extracrispy**, **JarateKing**, **merlin**, **nimtra**, **omnibombulator**, **Pigby**, **playmo**, **Rawrsor**, **Sevin**, **Whisker**, and **Wiethoofd**

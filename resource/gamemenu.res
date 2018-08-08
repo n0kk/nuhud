@@ -44,12 +44,6 @@
 		"label" "DemoUI"
 		"command" "engine demoui"
 	}
-	"QuitButton"
-	{
-		"label"	""
-		"command" "engine replay_confirmquit"
-		"OnlyAtMenu" "1"
-	}
 
 	//IN-GAME BUTTONS
 	"CallVoteButton"
@@ -95,23 +89,8 @@
 					echo ================================
 					echo --- nuhud
 					echo --- by Nokk
-					echo --- Last updated on 2018 Jun 06
+					echo --- Last updated on 2018 Aug 08
 					echo ================================"
 		"tooltip" "HUD Info"
-	}
-
-	"RequestCoachButton"	//UNUSED
-	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "Request Coach"
-	}
-	"SteamWorkshopButton"	//UNUSED
-	{
-		"label" ""
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
 	}
 }

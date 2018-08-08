@@ -150,7 +150,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitleShadow"
-			"font"			"nüBoldShadow16"
+			"font"			"nüBoldBlur16"
 			"labelText"		"#QuestLog_Title"
 			"textAlignment"	"center"
 			"xpos"			"0"

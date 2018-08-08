@@ -73,7 +73,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabelShadow"
-			"font"			"nüBoldShadow30"
+			"font"			"nüBoldBlur30"
 			"labelText"		"%title%"
 			"textAlignment"	"center"
 			"xpos"			"0"

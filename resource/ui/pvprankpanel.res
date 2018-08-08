@@ -188,12 +188,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"150"
-		"tall"			"f40"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 0"
+		"bgcolor_override"	"Blank"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -208,18 +208,45 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"10"
-			"ypos"			"0"
-			"wide"			"130"
+			"xpos"			"100"
+			"ypos"			"4"
+			"wide"			"140"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"nüBold16"
 			"fgcolor_override"	"nüWhite"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"visible"	"0"
+			}
+		}
+
+		"NameLabelShadow"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"NameLabelShadow"
+			"xpos"			"0"
+			"ypos"			"-1"
+			"wide"			"140"
+			"zpos"			"100"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"nüBold16"
+			"fgcolor_override"	"ShadowBlack"
+			"textAlignment"	"west"
+			"labelText"		"%name%"
+			"proportionaltoparent"	"1"
+
+			"pin_to_sibling"	"NameLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 			if_mini
 			{
@@ -231,16 +258,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"0"
-			"ypos"			"14"
-			"wide"			"150"
+			"xpos"			"100"
+			"ypos"			"20"
+			"wide"			"140"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"nü10"
 			"fgcolor_override"	"nüOffWhite"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
@@ -266,16 +293,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"0"
-			"ypos"			"24"
-			"wide"			"150"
+			"xpos"			"100"
+			"ypos"			"32"
+			"wide"			"140"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"nü10"
 			"fgcolor_override"	"nüOffWhite"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
@@ -307,9 +334,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"150"
+			"xpos"			"100"
+			"ypos"			"20"
+			"wide"			"f0"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -325,8 +352,8 @@
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
 				"xpos"			"0"
-				"ypos"			"rs1-3"
-				"wide"			"150"
+				"ypos"			"0"
+				"wide"			"f0"
 				"tall"			"35"
 				"proportionaltoparent"	"1"
 
@@ -341,16 +368,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"10"
-					"ypos"			"rs1"
+					"xpos"			"0"
+					"ypos"			"0"
 					"zpos"			"0"
-					"wide"			"130"
+					"wide"			"f0"
 					"tall"			"20"
 					"visible"		"0"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
 					"fgcolor_override"	"nüWhite"
-					"textAlignment"	"center"
+					"textAlignment"	"west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 
@@ -395,9 +422,9 @@
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"30"
-					"ypos"			"rs1-10"
-					"wide"			"90"
+					"xpos"			"0"
+					"ypos"			"26"
+					"wide"			"135"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
 

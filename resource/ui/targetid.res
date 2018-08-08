@@ -2,18 +2,16 @@
 {
 	"TargetBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"TargetBG"
 		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"-1"
 		"wide"			"640"
 		"tall"	 		"16"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"15 15 15 215"
+		"bgcolor_override"	"15 15 15 215"
 	}
 	"TargetIDBG"
 	{
@@ -21,24 +19,10 @@
 		"fieldName"		"TargetIDBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"-1"
 		"wide"			"0"
 		"tall"	 		"0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_3"		"replay/thumbnails/bg_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
 	}	
 	"TargetIDBG_Spec_Blue"
 	{
@@ -49,17 +33,9 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"32"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bg_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -70,19 +46,11 @@
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"32"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/bg_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
 	}
-	
+
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
@@ -93,39 +61,31 @@
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"16"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"fgcolor_override"		"nüWhite"
 	}
 	"TargetNameLabelShadow"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"nüMediumShadow14"
+		"font"			"nüMediumBlur14"
 		"xpos"			"0"					// set to 11 if using floating health
 		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"16"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"fgcolor_override"		"ShadowBlack"
 
 		"pin_to_sibling"	"TargetNameLabel"
-        "pin_corner_to_sibling"		"1"
-        "pin_to_sibling_corner"		"1"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}	
 	"TargetDataLabel"
 	{	
@@ -137,14 +97,10 @@
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"12"
-		"autoResize"		"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"fgcolor_override"		"240 240 0 255"
 	}
 	"SpectatorGUIHealth"
@@ -179,7 +135,6 @@
 		"scaleImage"	"1"
 	}
 
-
 	"KillStreakIconAnchor"
 	{
 		"ControlName"	"EditablePanel"
@@ -206,8 +161,8 @@
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 
-		"pin_to_sibling"		"KillStreakIconAnchor"
-        "pin_corner_to_sibling" "1"
-        "pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"KillStreakIconAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

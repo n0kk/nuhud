@@ -98,7 +98,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"nüMediumShadow12"
+		"font"			"nüMediumBlur12"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"40"
 		"ypos"			"1"

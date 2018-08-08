@@ -151,7 +151,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"nüBoldShadow32"
+		"font"			"nüBoldBlur32"
 		"fgcolor"		"ShadowBlack"
 		
 		"pin_to_sibling"	"BlueScore"
@@ -219,7 +219,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"nüBoldShadow32"
+		"font"			"nüBoldBlur32"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"RedScore"

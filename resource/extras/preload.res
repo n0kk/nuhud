@@ -1,4 +1,4 @@
-"Resource/UI/MainMenuOverride.res"
+"Resource/UI/Preload.res"
 {
 	"icon_obj_blu"
 	{
@@ -43,6 +43,17 @@
 		"tall"			"0"
 		"visible"		"0"
 		"image"			"../sprites/obj_icons/icon_obj_cap_blu_up"
+	}
+	"icon_obj_cap_mask"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"icon_obj_cap_blu_up"
+		"xpos"			"r0"
+		"ypos"			"r0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"image"			"../sprites/obj_icons/icon_obj_cap_mask"
 	}
 	"icon_obj_cap_red"
 	{

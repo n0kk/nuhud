@@ -1,11 +1,3 @@
-
-// Load custom crosshairs	
-//------------------------------------------
-
-	#base "hudlayout_xhairs.res"
-
-//------------------------------------------
-
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -24,10 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c105"
-		"ypos"	"c105"
-		"wide"	"265"
-		"tall"	"50"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 	
 	HudObjectiveStatus
@@ -84,11 +76,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-75"
-		"ypos"			"c129"
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"f0"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -177,10 +169,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-50"
-		"ypos"					"c53"
-		"wide"					"100"
-		"tall"  				"90"
+		"xpos"					"c-60"
+		"ypos"					"c102"
+		"wide"					"120"
+		"tall"  				"45"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -189,10 +181,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-195"
-		"ypos"					"c76"
-		"wide"					"90"
-		"tall"  				"50"
+		"xpos"					"c-120"
+		"ypos"					"c105"
+		"wide"					"50"
+		"tall"  				"45"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -217,7 +209,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-60"
-		"ypos"		"r85"
+		"ypos"		"r88"
 		"wide"		"120"
 		"tall"		"40"
 	}
@@ -292,7 +284,7 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-8"
+		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"640"
 		"tall"		"480"
@@ -944,9 +936,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c101"
-		"ypos"			"c-50"
+		"ypos"			"c-42"
 		"wide"			"120"
-		"tall"			"195"
+		"tall"			"187"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -956,9 +948,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c101"
-		"ypos"			"c-50"
+		"ypos"			"c-42"
 		"wide"			"120"
-		"tall"			"195"
+		"tall"			"187"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -968,9 +960,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c101"
-		"ypos"			"c30"
+		"ypos"			"c39"
 		"wide"			"120"
-		"tall"			"115"
+		"tall"			"106"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -980,9 +972,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c101"
-		"ypos"			"c-50"
+		"ypos"			"c-42"
 		"wide"			"120"
-		"tall"			"195"
+		"tall"			"187"
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -991,10 +983,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-75"
-		"ypos"			"c104"
-		"wide"			"200"
-		"tall"			"100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 	}	
 
 	HudTeamGoal
@@ -1233,9 +1225,9 @@
 		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"			"c-125"
-		"ypos"			"280"
-		"wide"			"250"
+		"xpos"			"cs-0.5"
+		"ypos"			"c25"
+		"wide"			"216"
 		"tall"			"160"
 	}
 	
@@ -1348,10 +1340,10 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c101"
-		"ypos"			"c-50"
+		"ypos"			"c-42"
 		"zpos"			"1"
 		"wide"			"145"
-		"tall"			"195"
+		"tall"			"187"
 		"PaintBackgroundType"	"0"
 	}
 

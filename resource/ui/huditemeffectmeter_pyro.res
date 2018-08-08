@@ -1,10 +1,10 @@
-#base "HudItemEffectMeter.res"
+#base "../extras/meters.res"
+#base "../extras/spacer.res"
 
 "Resource/UI/HudItemEffectMeter_Pyro.res"
 {
-	HudItemEffectMeter
+	ItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"ypos"	"c137"
+		"ypos"			"-22"
 	}
 }

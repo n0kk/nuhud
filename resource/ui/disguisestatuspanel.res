@@ -71,7 +71,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabelShadow"
-		"font"			"nüMediumShadow14"
+		"font"			"nüMediumBlur14"
 		"xpos"			"42"
 		"ypos"			"13"
 		"zpos"			"1"

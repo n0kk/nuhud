@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"nüMediumShadow24"
+		"font"			"nüMediumBlur24"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -254,7 +254,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
-		"font"			"nüMediumShadow18"
+		"font"			"nüMediumBlur18"
 		"xpos"			"cs-0.5"
 		"ypos"			"80+1"
 		"wide"			"600"

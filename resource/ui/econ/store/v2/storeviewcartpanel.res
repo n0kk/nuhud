@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"40 40 40 255"
+		"infocus_bgcolor_override"		"40 40 40 255"
+		"outoffocus_bgcolor_override"	"40 40 40 255"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -148,53 +148,26 @@
 				"labelText"		"%price%"
 				"fgcolor_override" "nüWhite"
 			}
+			
+			"PreviewItemLabel"
+			{
+				"ControlName"	"Label"
+				"fieldname"		"PreviewItemLabel"
+				"font"			"HudFontSmallest"
+				"textAlignment"	"center"
+				"xpos"			"110"
+				"ypos"			"36"
+				"wide"			"250"
+				"tall"			"15"
+				"zpos"			"15"
+				"autoResize"	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%preview_item%"
+				"fgcolor_override" "130 120 104 255"
+			}
 		}
-	}
-
-	"MainBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"40 40 40 255"	
-	}
-
-	"MenuTopPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"MenuTopPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"nüBase"
-	}
-
-	"CheckoutLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CheckoutLabel"
-		"font"			"nüMedium16"
-		"labelText"		"Checkout"
-		"textAlignment"	"west"
-		"xpos"			"30"
-		"ypos"			"0"
-		"wide"			"70"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"nüWhite"
 	}
 
 	"BackgroundHeader"
@@ -203,13 +176,10 @@
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"55"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"loadout_header"
-		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
 	{
@@ -217,13 +187,10 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"60"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
 	}				
 	"FooterLine"
 	{
@@ -231,13 +198,10 @@
 		"fieldName"		"FooterLine"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"10"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
 	}				
 	
 	"ClientArea"
@@ -288,7 +252,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabelShadow"
-			"font"			"nüBoldShadow30"
+			"font"			"nüBoldBlur30"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -350,7 +314,7 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"0"
-			"fgcolor_override"	"30 30 30 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"fgcolor_override"	"nüBase"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"35 35 35 255"
 			"autohide_buttons" "1"
 			
@@ -505,20 +469,11 @@
 		"fieldName"		"CloseButton"
 		"xpos"			"r30"
 		"ypos"			"0"
-		"zpos"			"2"
+		"zpos"			"10088"
 		"wide"			"30"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			""
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -530,9 +485,9 @@
 		"defaultFgColor_override" 	"Blank"
 		"armedFgColor_override"   	"Blank"
 		"depressedFgColor_override" "Blank"
-		"defaultBgColor_override" 	"Blank"
-		"armedBgColor_override"   	"nüLightBase"
-		"depressedBgColor_override" "nüLightBase"
+		"defaultBgColor_override" 	"nüBase"
+		"armedBgColor_override"   	"0 122 136 255"
+		"depressedBgColor_override" "0 122 136 255"
 
 		"SubImage"
 		{
@@ -575,5 +530,4 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
 }

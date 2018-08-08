@@ -237,7 +237,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"bgcolor_override"	"LightPanelBG"
+			"bgcolor_override"	"88 88 88 88"
 		}
 
 		"BuildingPanel"
@@ -285,7 +285,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"bgcolor_override"	"LightPanelBG"
+				"bgcolor_override"	"88 88 88 88"
 			}
 		}
 	
@@ -331,7 +331,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"bgcolor_override"	"LightPanelBG"
+				"bgcolor_override"	"88 88 88 88"
 			}	
 			
 			"UpgradeIcon"
@@ -366,7 +366,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"bgcolor_override"	"LightPanelBG"
+				"bgcolor_override"	"88 88 88 88"
 			}
 		}
 	}
