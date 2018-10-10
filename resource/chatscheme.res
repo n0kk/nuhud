@@ -3,23 +3,17 @@ Scheme
 	Colors
 	{
 		// nühud Colors
-		//-----------------------------------------
-		
 		"nüBase"				"0 88 98 255"
-		"nüLightBase"			"0 126 140 215"
-		
+		"nüLightBase"			"0 126 140 255"
 		"nüWhite"				"240 240 240 255"
 		"nüOffWhite"			"160 160 160 255"
 		"nüGrey"				"40 40 40 255"
 		"nüDarkGrey"			"30 30 30 255"
 		"nüBlack"				"6 6 6 255"
-
 		"PanelBG"				"15 15 15 215"
 		"LightPanelBG"			"15 15 15 140"
 		"DarkPanelBG"			"15 15 15 255"
 
-		//-----------------------------------------
-		
 		// base colors
 		"Green"				"63 185 73 255"
 		"Blank"				"0 0 0 0"

@@ -8,27 +8,20 @@
 		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"22"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 	
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"22"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
 	}
 	
 	"Icon_Sentry_1"
@@ -50,44 +43,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"160"
-		"tall"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-
-		"BuildingBG"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BuildingBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"36"
-			"tall"			"22"
-			"visible"		"0"
-			"enabled"		"0"
-			"fillcolor"		"PanelBG"
-		}
-
-		"NotBuiltLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NotBuiltLabel"
-			"font"			"nü10"
-			"xpos"			"53"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"labelText"		"#Building_hud_disp_sentry_not_built"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
-		}
 	}
 	
 	"BuiltPanel"
@@ -118,7 +78,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"BuildingBG2"
-			"xpos"			"36"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"73"
@@ -126,6 +86,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"LightPanelBG"
+
+			"pin_to_sibling"	"BuildingBG"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 
 		"Icon_Upgrade_1"
@@ -148,12 +112,12 @@
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"107"
+			"xpos"			"109"
 			"ypos"			"0"
 			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"44"
-			"tall"			"30"
+			"tall"			"22"
 			"visible"		"0"
 			"enabled"		"0"	
 			"icon"			"obj_status_alert_background_tall"
@@ -163,8 +127,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"114"
-			"ypos"			"18"
+			"xpos"			"115"
+			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"17"
 			"tall"			"17"
@@ -179,8 +143,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"110"
-			"ypos"			"12"
+			"xpos"			"113"
+			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"15"
 			"tall"			"15"
@@ -200,13 +164,9 @@
 			"ypos"			"4"
 			"wide"			"8"
 			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"bgcolor_override"	"88 88 88 88"
 		}
 		
@@ -229,14 +189,10 @@
 				"ypos"			"18"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 			
 			"BuildingProgress"
@@ -248,13 +204,9 @@
 				"ypos"			"29"
 				"wide"			"50"
 				"tall"			"8"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"bgcolor_override"	"88 88 88 88"
 			}
 		}
@@ -273,35 +225,24 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
-				"xpos"			"0"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"scaleImage"	"1"
-				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ProgressOffWhite"
 			}
 						
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"nü10"
-				"xpos"			"12"
-				"ypos"			"6"
-				"wide"			"200"
-				"tall"			"22"
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"labelText"		"#Building_hud_sentry_kills_assists"
-				"textAlignment"	"north-west"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 					
 			"ShellIcon"	
@@ -329,13 +270,9 @@
 				"ypos"			"7"
 				"wide"			"38"
 				"tall"			"8"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 				"bgcolor_override"	"88 88 88 88"
 			}
 		}

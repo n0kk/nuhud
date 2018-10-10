@@ -1,0 +1,33 @@
+event HudMedicCharged
+{
+	Animate	ChargeLabel		FgColor		"255 0 0 255"		Linear 0.0 0.1
+	Animate	ChargeLabel		FgColor		"255 127 0 255"		Linear 0.1 0.1
+	Animate	ChargeLabel		FgColor		"255 255 0 255"		Linear 0.2 0.1	
+	Animate	ChargeLabel		FgColor		"0 255 0 255"		Linear 0.3 0.1
+	Animate	ChargeLabel		FgColor		"0 0 255 255"		Linear 0.4 0.1
+	Animate	ChargeLabel		FgColor		"139 0 0 255"		Linear 0.5 0.1
+
+	Animate	ChargeMeter		FgColor		"255 0 0 255"		Linear 0.0 0.1
+	Animate	ChargeMeter		FgColor		"255 127 0 255"		Linear 0.1 0.1
+	Animate	ChargeMeter		FgColor		"255 255 0 255"		Linear 0.2 0.1	
+	Animate	ChargeMeter		FgColor		"0 255 0 255"		Linear 0.3 0.1
+	Animate	ChargeMeter		FgColor		"0 0 255 255"		Linear 0.4 0.1
+	Animate	ChargeMeter		FgColor		"139 0 0 255"		Linear 0.5 0.1
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudMedicCharged
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate	ChargeMeter		FgColor		"Ubercharge Meter"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"Charge Percent"		Linear 0.0 0.0001
+}

@@ -9,3 +9,7 @@ event CompetitiveGame_RestoreChatWindow
 event HudTournament_MoveChatWindow
 {
 }
+
+event HasNotificationsBlink
+{
+}

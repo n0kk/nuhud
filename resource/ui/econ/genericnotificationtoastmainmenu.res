@@ -25,8 +25,8 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"nüBlack"
 	}
 	"AvatarImage"
 	{
@@ -48,8 +48,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"56 47 29 255"
-		"fgcolor_override" "56 47 29 255"
+		"fgcolor"		"nüWhite"
+		"fgcolor_override" "nüWhite"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"

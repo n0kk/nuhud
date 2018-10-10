@@ -26,7 +26,7 @@
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"font"			"nüBold40"
-		"fgcolor"		"ChargePercent"
+		"fgcolor"		"Charge Percent"
 
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -36,8 +36,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"45"

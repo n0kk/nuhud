@@ -28,8 +28,6 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValueFreeze 		FgColor 	"Health"	Linear 0.0 0.0
 }
 
-//===========================================
-
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage		Alpha		"255"		Linear 0.0 0.075

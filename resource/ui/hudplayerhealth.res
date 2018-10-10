@@ -1,3 +1,5 @@
+#base "../../customization/fontsizes.res"
+#base "../../customization/fontshadows.res"
 #base "../extras/spacer.res"
 
 "Resource/UI/HudPlayerHealth.res"
@@ -48,8 +50,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"c-173"
-		"ypos"			"c110"
 		"zpos"			"2"
 		"wide"			"36"
 		"tall"			"36"
@@ -71,7 +71,6 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"nüBold40"
 		"fgcolor"		"nüWhite"
 
 		"pin_to_sibling"	"Spacer"
@@ -82,8 +81,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-1"
-		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"45"
@@ -91,7 +88,6 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"nüBoldBlur40"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"PlayerStatusHealthValue"

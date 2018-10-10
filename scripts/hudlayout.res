@@ -1,3 +1,5 @@
+#base "../customization/spacer.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -169,8 +171,6 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-60"
-		"ypos"					"c102"
 		"wide"					"120"
 		"tall"  				"45"
 		"visible" 				"1"
@@ -181,8 +181,6 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-120"
-		"ypos"					"c105"
 		"wide"					"50"
 		"tall"  				"45"
 		"visible" 				"1"
@@ -220,7 +218,6 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"275"
 		"wide"	 	"252"
 		"tall"	 	"32"
 		"priority"	"40"
@@ -253,7 +250,6 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"310"
 		"wide"	 	"252"
 		"tall"	 	"32"
 		"priority"	"35"
@@ -817,9 +813,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-170"
-		"ypos"					"c-32"
 		"wide"					"340"
-		"tall"					"65"
+		"tall"					"64"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}

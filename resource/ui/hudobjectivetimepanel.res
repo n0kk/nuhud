@@ -4,13 +4,13 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"30"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"4"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"
 		
@@ -21,32 +21,6 @@
 		"draw_corner_height" 	"0"
 		
 		if_match
-		{
-			"visible"	"0"
-		}
-	}
-
-	"TimePanelBG2"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TimePanelBG2"
-		"xpos"			"30"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"4"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"		"1"
-		"image"			"replay/thumbnails/blank"
-		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_3"		"replay/thumbnails/bg_blu"
-		
-		if_match
-		{
-			"visible"	"0"
-		}
-		if_competitive
 		{
 			"visible"	"0"
 		}

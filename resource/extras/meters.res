@@ -1,4 +1,4 @@
-"Resource/Tools/Meters.res"
+"Resource/Extras/Meters.res"
 {
 	HudItemEffectMeter
 	{

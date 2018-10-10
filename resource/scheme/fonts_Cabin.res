@@ -2881,6 +2881,17 @@ Scheme
 				"outline"	"1"
 			}
 		}
+
+		// SYMBOL FONT
+		"BlocksSharp64"
+		{
+			"1"
+			{
+				"name" 		"Blocks"
+				"tall" 		"64"
+				"antialias" "0"
+			}
+		}
 		
 		// DEFAULT FONTS
 		"Default"
@@ -5383,6 +5394,30 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
+		}
+	}
+
+	CustomFontFiles
+	{
+		"8800"
+		{
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		"8801"
+		{
+			"font" "resource/fonts/Cabin-Bold.otf"
+			"name" "Cabin-Bold"
+		}
+		"8802"
+		{
+			"font" "resource/fonts/Cabin-Medium.otf"
+			"name" "Cabin-Medium"
+		}
+		"8803"
+		{
+			"font" "resource/fonts/Cabin-Regular.otf"
+			"name" "Cabin-Regular"
 		}
 	}
 }

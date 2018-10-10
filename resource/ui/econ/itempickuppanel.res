@@ -88,7 +88,7 @@
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"35"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"

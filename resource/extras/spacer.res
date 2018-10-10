@@ -1,15 +1,9 @@
-// Credit to Pigby
-// Note: Certain HUD Elements (e.g., health pickup, health cross, metal count) are not
-// moved using spacer positioning. Move those individually in their respective files.
+#base "../../customization/spacer.res"
 
-"Resource/Tools/Spacer.res"
+"Resource/Extras/Spacer.res"
 {
 	"Spacer"
 	{
-		"ypos"			"c105"		// Vertical position of health, ammo, and ubercharge
-		"wide"			"410"		// Distance between health, ammo, and ubercharge
-		"tall"			"45"		// Vertical position of item meters
-
 		"visible"		"0"
 		"bgcolor_override"	"0 0 0 30"
 

@@ -114,44 +114,6 @@
 		}
 	}
 
-	"BlueTimerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueTimerBG"
-		"xpos"			"30"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"40"
-		"tall"			"4"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"nüBLUSolid"
-
-		if_match
-		{
-			"visible"	"0"
-		}
-	}
-
-	"RedTimerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"RedTimerBG"
-		"xpos"			"130"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"40"
-		"tall"			"4"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"nüREDSolid"
-		
-		if_match
-		{
-			"visible"	"0"
-		}
-	}
-
 	"ActiveTimerBG"
 	{
 		"ControlName"		"ImagePanel"

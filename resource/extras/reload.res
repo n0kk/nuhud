@@ -1,4 +1,4 @@
-"Resource/UI/Reload.res"
+"Resource/Extras/Reload.res"
 {
 	"Reload"
 	{

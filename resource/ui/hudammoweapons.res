@@ -1,3 +1,5 @@
+#base "../../customization/fontsizes.res"
+#base "../../customization/fontshadows.res"
 #base "../extras/spacer.res"
 
 "Resource/UI/HudAmmoWeapons.res"
@@ -8,7 +10,6 @@
 		"fieldName"		"HudWeaponAmmoBG"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
@@ -20,7 +21,6 @@
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"0"
@@ -30,7 +30,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"nüBold40"
 		"fgcolor"		"Ammo In Clip"
 		"xpos"			"-55"
 		"ypos"			"0"
@@ -50,10 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"nüBoldBlur40"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"45"
@@ -70,7 +66,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"nüMedium20"
 		"fgcolor"		"Ammo In Reserve"
 		"xpos"			"5"
 		"ypos"			"5"
@@ -90,10 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"nüMediumBlur20"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"0"
-		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"45"
@@ -103,14 +95,13 @@
 		"labelText"		"%AmmoInReserve%"
 
 		"pin_to_sibling"	"AmmoInReserve"
-		"pin_corner_to_sibling"		"1"
-        "pin_to_sibling_corner"		"1"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"nüBold40"
 		"fgcolor"		"Ammo No Clip"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -130,10 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"nüBoldBlur40"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"-1"
-		"ypos"			"-1"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"45"
@@ -144,6 +132,6 @@
 
 		"pin_to_sibling"	"AmmoNoClip"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-        "pin_to_sibling_corner"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }
