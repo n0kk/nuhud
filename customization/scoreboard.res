@@ -9,12 +9,11 @@
 // is unaffected.
 //
 // A few position examples:
-//
 // Top aligned: ypos = 0
 // Bottom aligned: ypos = rs1
 // Bottom aligned (no stats): ypos = rs1+35
 
-"Resource/UI/Scoreboard.res"
+"Customization/Scoreboard.res"
 {
 	"ScoreboardPosition"
 	{

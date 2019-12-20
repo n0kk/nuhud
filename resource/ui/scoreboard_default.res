@@ -70,7 +70,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"nüBLUTransparent"
+		"bgcolor_override"	"nüBLUSolid"
 
 		"pin_to_sibling"	"BlueScoreBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -137,7 +137,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"nüREDTransparent"
+		"bgcolor_override"	"nüREDSolid"
 
 		"pin_to_sibling"	"RedScoreBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"

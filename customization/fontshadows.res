@@ -3,7 +3,7 @@
 // Adjust the position of the health, ammo, and ubercharge number
 // shadows by changing the xpos and ypos values.
 
-"Resource/Customization/Fontshadow.res"
+"Customization/Fontshadow.res"
 {
 
 // Health shadow

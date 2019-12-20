@@ -454,8 +454,8 @@
 		
 		"TextFont"		"nüMedium10"
 		
-		"TeamBlue"		"8 146 208 255"
-		"TeamRed"		"255 45 38 255"
+		"TeamBlue"		"nüBLUSolid"
+		"TeamRed"		"nüREDSolid"
 		"IconColor"		"240 240 240 255"
 		"LocalPlayerColor"	"HUDBlack"
 

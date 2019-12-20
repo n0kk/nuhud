@@ -1,3 +1,5 @@
+#base "../../customization/spectatortournament.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -166,7 +168,6 @@
 				"tall"				"18"
 				"visible"			"1"
 				"enabled"			"1"	
-				"HealthBonusPosAdj"	"213"	// 320 - 1920x1080, 213 - 1280x720, 229 - 1024x768
 				"HealthDeathWarning"		"1.0"
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
@@ -326,22 +327,39 @@
 		"visible"		"0"
 		"ypos"			"480"
 	}
+	"Anchor"
+	{	
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Anchor"
+		"xpos"					"cs-0.5"
+		"ypos"					"50"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
+	}
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"
-		"ypos"			"32"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"600"
-		"tall"			"18"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"nü16"
+		"font"			"nüMedium14"
+		"textinsetx"	"12"
+		"use_proportional_insets" "1"
 		"fgcolor_override"		"nüWhite"
+		"bgcolor_override"		"PanelBG"
+		"auto_wide_tocontents" "1"
+
+		"pin_to_sibling"	"Anchor"
+		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 		
 		if_mvm
 		{
@@ -356,8 +374,6 @@
 		"ypos"			"82"
 		"wide"			"380"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"

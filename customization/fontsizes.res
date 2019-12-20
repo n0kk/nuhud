@@ -8,7 +8,7 @@
 // they use specifically-sized HUD elements (health cross 
 // and box).
 
-"Resource/Customization/Fontsize.res"
+"Customization/Fontsize.res"
 {
 
 // Health numbers

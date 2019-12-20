@@ -43,10 +43,10 @@ Scheme
 		"PanelBG"				"15 15 15 215"
 		"LightPanelBG"			"15 15 15 140"
 		"DarkPanelBG"			"15 15 15 255"
-		"nüBLUTransparent"		"8 146 208 140"
-		"nüREDTransparent"		"255 45 38 140"
-		"nüBLUSolid"			"8 146 208 255"
-		"nüREDSolid"			"255 45 38 255"
+		"nüBLUTransparent"		"77 116 139 140"		//8 146 208 140
+		"nüREDTransparent"		"184 59 59 140"		//255 45 38 140
+		"nüBLUSolid"			"77 116 139 255"		//8 146 208 255
+		"nüREDSolid"			"184 59 59 255"		//255 45 38 255
 		"ShadowBlack"			"0 0 0 255"
 	}
 }

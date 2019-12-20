@@ -3,7 +3,7 @@
 // Adjust the position of the chat by changing the xpos
 // and ypos values.
 
-"Resource/Customization/Chat.res"
+"Customization/Chat.res"
 {
 	"HudChat"
 	{

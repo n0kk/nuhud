@@ -361,7 +361,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"85"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"30"
@@ -372,9 +372,9 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"TanDark"
 
-		"pin_to_sibling"	"PlayerStatusAnchor"
-		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_to_sibling"	"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
+		"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
 	"PlayerStatus_SoldierOffenseBuff"
 	{

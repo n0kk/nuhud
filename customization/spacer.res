@@ -1,7 +1,7 @@
 // Credit to Pigby
 // Used to change the position of the health, ammo, ubercharge, and item meters.
 
-"Resource/Extras/Spacer.res"
+"Customization/Spacer.res"
 {
 	"Spacer"
 	{

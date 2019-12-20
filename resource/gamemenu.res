@@ -82,6 +82,12 @@
 		"command" "OpenCreateMultiplayerGameDialog"
 		"tooltip" "Create Server"
 	}
+	"AchievementsButton"
+	{
+		"label"	""
+		"command" "OpenAchievementsDialog"
+		"tooltip" "Achievements"
+	}
 	"InfoButton"
 	{
 		"label"	""
@@ -89,7 +95,7 @@
 					echo ================================
 					echo --- nuhud
 					echo --- by Nokk
-					echo --- Last updated on 2018 Oct 10
+					echo --- Last updated on 2019 Dec 19
 					echo ================================"
 		"tooltip" "HUD Info"
 	}
